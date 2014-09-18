@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/dismiss_normal" android:state_active="false" android:state_enabled="true" android:state_focused="false"/>
+    <item android:drawable="@drawable/dismiss_activated" android:state_active="true" android:state_enabled="true" android:state_focused="false"/>
+    <item android:drawable="@drawable/dismiss_focused" android:state_active="false" android:state_enabled="true" android:state_focused="true"/>
+
+</selector><!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/drawable/ic_item_dismiss.xml -->

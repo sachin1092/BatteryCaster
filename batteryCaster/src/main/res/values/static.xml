@@ -1,0 +1,4 @@
+<resources>
+    <string name="battery_info_status_charging_ac">(AC)</string>
+    <string name="battery_info_status_charging_usb">(USB)</string>
+</resources>

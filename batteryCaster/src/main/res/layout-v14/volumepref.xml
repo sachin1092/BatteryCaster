@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:background="#ff161616"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tvchangeLogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical|start"
+        android:background="@drawable/actionbar_back"
+        android:gravity="center_vertical|start"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_below="@+id/tvchangeLogTitle"
+        android:layout_marginBottom="25dp"
+        android:background="#a08e8f90" />
+
+    <ImageButton
+        android:id="@+id/bMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view"
+        android:layout_centerVertical="true"
+        android:background="@drawable/apptheme_btn_default_holo_dark"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/minus" />
+
+    <SeekBar
+        android:id="@+id/sbWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_toLeftOf="@+id/bAdd"
+        android:layout_toRightOf="@+id/bMinus"
+        android:progressDrawable="@drawable/apptheme_scrubber_progress_horizontal_holo_dark"
+        android:thumb="@drawable/apptheme_scrubber_control_selector_holo_dark" />
+
+    <ImageButton
+        android:id="@+id/bAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view"
+        android:layout_centerVertical="true"
+        android:background="@drawable/apptheme_btn_default_holo_dark"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/plus1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bAdd"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="25dp"
+        android:dividerPadding="20dp"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/bChangeLogMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bnew_item_background"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bChangeLogOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bnew_item_background"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="OK"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

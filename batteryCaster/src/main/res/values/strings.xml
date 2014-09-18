@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Battery Caster</string>
+    <string name="menu_settings">Settings</string>
+    <string name="foreground_service_started">Service is in the foreground</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="spinner_prompt">Select Font</string>
+    <string name="battery_info_status_charging">Charging</string>
+    <string name="battery_info_status_discharging">Discharging</string>
+    <string name="battery_info_status_not_charging">Not charging</string>
+    <string name="battery_info_status_full">Full</string>
+    <string name="battery_info_health_good">Good</string>
+    <string name="battery_info_health_overheat">Overheat</string>
+    <string name="battery_info_health_dead">Dead</string>
+    <string name="battery_info_health_over_voltage">Over voltage</string>
+    <string name="battery_info_health_unspecified_failure">Unknown error</string>
+    <string name="battery">Battery</string>
+    <string name="caster">Caster</string>
+    <string name="initialising_for_first_use">Initialising for first use</string>
+    <string name="history">History</string>
+    <string name="stats">Stats</string>
+    <string name="delta">δ</string>
+    <string name="mymailid">saphion.developers@gmail.com</string>
+    <string name="alarm_deleted">Alarm Deleted</string>
+    <string name="undo">UNDO</string>
+    <string name="todo">TODO</string>
+    <string name="alarm_vibrate">Vibrate</string>
+    <string name="alarm_repeat">Repeat</string>
+    <string name="collapse_alarm">Collapse alarm</string>
+    <string name="label">Label</string>
+    <string name="expand_alarm">Expand alarm</string>
+    <string name="alarm_on">ON</string>
+    <string name="alarm_off">OFF</string>
+    <string name="_100">100</string>
+    <string name="label_">"Label: "</string>
+    <string name="mon">mon</string>
+    <string name="tue">tue</string>
+    <string name="wed">wed</string>
+    <string name="thu">thu</string>
+    <string name="fri">fri</string>
+    <string name="sat">sat</string>
+    <string name="sun">sun</string>
+    <string name="enter_label">Enter Label</string>
+    <string name="power_profiles">Power Profiles</string>
+    <string name="power">Power</string>
+    <string name="info">Info</string>
+    <string name="alarm">Alarm</string>
+    <string name="graph">Graph</string>
+    <string name="notification_priority">Notification Priority</string>
+    <string name="show_battery_graph">Show Battery Graph</string>
+    <string name="auto">Auto</string>
+    <string name="welcometext">Welcome to Battery Caster - the most intuitive and powerful tool for your battery. Please read this quick start guide to understand the features this application provides.</string>
+    <string name="changelog_version_format">Version <xliff:g id="version_name">%s</xliff:g></string>
+    <string name="tab_help_text">There are 3 tabs, each one with different features. Swipe across them to explore them.</string>
+    <string name="info_tab_help_text">Info tab provides with the information related to battery like level, temperature and the estimate of battery span. Info tab also include a history graph to help you figure out the battery draining hours.</string>
+    <string name="alarm_tab_help_text1">Click on the marked region to view and edit the properties of alarm.</string>
+    <string name="alarm_tab_help_text2">To edit click on the property you want to edit. Example: To change battery level of alarm click on the battery level.</string>
+    <string name="alarm_tab_help_text3">Long press to start the selection and delete mode.</string>
+    <string name="power_tab_help_text1">To edit power profile click on the selected region.</string>
+    <string name="power_tab_help_text2">To select any power profile click on the selected region of particular profile.</string>
+    <string name="power_tab_help_text3">Long press to start the selection and delete mode.</string>
+    <string name="noti_tab_help_text">To toggle visibility of icon in notification bar use the marked switch in notification settings.</string>
+    <string name="widgets_tab_help_text">Add amazing widgets to your home screen.</string>
+    <string name="letsstart">We are glad you\'ve decided to try Battery Caster. We hope you will love all the features the application provides. If you forget anything check this quick start guide again. For any further assistance feel free to contact us through the settings menu.</string>
+    <string name="thank_you_">Thank you!</string>
+    <string name="start_using_battery_caster">Start Using Battery Caster</string>
+    <!-- String for no alarms -->
+    <string name="no_alarms">No Alarms</string>
+    <!-- String for no enabled alarms in timeline view [CHAR LIMIT=30] -->
+    <string name="no_upcoming_alarms">NO UPCOMING ALARMS</string>
+    <!--
+          Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day
+    -->
+    <string name="every_day">Every day</string>
+
+    <!--
+         Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to never repeat
+    -->
+    <string name="never">Never</string>
+
+    <!--
+         Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed"
+    -->
+    <string name="day_concat">", "</string>
+
+    <!-- Default label to display for an alarm -->
+    <string name="default_label">Alarm</string>
+    <!-- Delete button when editing an alarm. -->
+    <string name="delete">Delete</string>
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="delete_alarm">Delete alarm</string>
+     <!-- Summary for the alarm preference when silent is chosen. -->
+    <string name="silent_alarm_summary">Silent</string>
+    <!-- Accessibility labels for alarm buttons -->
+    <string name="label_description">Label</string>
+    <string name="ringtone_description">Ringtone</string>
+    
+    <string name="battery_usage">Battery Usage</string>
+    
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    
+    <string name="temperature">Temperature</string>
+    <string name="health">Health</string>
+    <string name="mswitch">Switch</string>
+    <string name="application_settings">APPLICATION SETTINGS</string>
+    <string name="temperature_unit">Temperature Unit</string>
+    <string name="one_percent_hack">One Percent Hack</string>
+    <string name="hack_for_devices_which_show_percent_in_10_increment">Hack for devices which show percent in 10% increment</string>
+    <string name="silence_after">Silence After</string>
+    <string name="alarm_in_silent_mode">Alarm in silent mode</string>
+    <string name="play_alarm_even_when_the_phone_is_in_silent_mode">Play alarm even when the phone is in silent mode</string>
+    <string name="alarm_volume">Alarm Volume</string>
+    <string name="notification">Notification</string>
+    <string name="alert_with_notification_instead_of_full_alarm">Alert with notification instead of full alarm</string>
+    <string name="alarm_settings">ALARM SETTINGS</string>
+    <string name="power_profile_settings">POWER PROFILE SETTINGS</string>
+    <string name="show_notification">Show Notification</string>
+    <string name="show_notification_before_switching_profile">Show notification before switching profile</string>
+    <string name="show_popup">Show Popup</string>
+    <string name="show_popup_before_switching_profile">Show popup before switching profile</string>
+    <string name="change_log">Change Log</string>
+    <string name="help">HELP</string>
+    <string name="quick_start_guide">Quick Start Guide</string>
+    <string name="learn_about_features_of_battery_caster">Learn about features of Battery Caster</string>
+    <string name="rate_us">Rate us</string>
+    <string name="it_will_encourage_us_to_build_better_applications_">It will encourage us to build better applications.</string>
+    <string name="suggest_a_feature_provide_feedback">Provide feedback</string>
+    <string name="write_to_us_any_feature_you_would_like_us_to_include_or_provide_feedback_">Any suggestions on how we can improve?</string>
+    <string name="report_a_bug">Report a bug</string>
+    <string name="if_you_don_apos_t_like_something_in_our_app_tell_us_and_we_will_try_our_best_to_satisfy_you_">Found a bug? Tell us and we will fix it.</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="using_celsius_metric_unit_">Using Celsius(Metric)</string>
+    <string name="using_fahrenheit_metric_unit_">Using Fahrenheit(Imperial)</string>
+    
+    <!-- Torch -->
+    <string name="err_cannot_acquire">Cannot acquire camera resources!</string>
+    <string name="err_cannot_toggle">Cannot toggle camera LED!</string>
+    <string name="notify_toggle_on">Flashlight LED turned on</string>
+    <string name="notify_toggle_on_ext">Tap to turn off.</string>
+
+</resources>

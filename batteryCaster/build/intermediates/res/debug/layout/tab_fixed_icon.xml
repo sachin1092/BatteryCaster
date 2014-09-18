@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<saphion.pageindicators.ViewPagerTabButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/saphion.batterycaster"
+    android:layout_width="0dp"
+    android:layout_height="@dimen/abc_action_bar_default_height"
+    android:layout_weight="1"
+    android:background="@drawable/item_background"
+    android:scaleType="center"
+    android:drawablePadding="10dp"
+    android:gravity="center"
+    android:paddingTop="7dp"
+    app:lineColor="#0fff"
+    app:lineColorSelected="#0fff"
+    app:lineHeight="0dp"
+    app:lineHeightSelected="0dp" />
+<!--android:background="@drawable/power_tab"-->
+<!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/layout/tab_fixed_icon.xml -->

@@ -1,0 +1,8 @@
+include ':batteryLib', ':library'
+include ':glowPadLib'
+include ':numberPickerlibrary'
+include ':undoLibrary'
+include ':viewPagerlibrary'
+include ':androidswitchbackport'
+include ':showcase_library'
+include ':batteryCaster'

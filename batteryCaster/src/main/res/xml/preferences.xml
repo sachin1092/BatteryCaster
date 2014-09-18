@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:holo="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Application Settings" >
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="main_temp_unit"
+            android:summaryOff="Using Fahrenheit(Imperial Unit)"
+            android:summaryOn="Using Celcius(Metric Unit)"
+            android:switchTextOff="F"
+            android:switchTextOn="C"
+            android:title="Temperature Unit" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:enabled="false"
+            android:key="onePerHack"
+            android:summary="Hack for devices which show percent in 10% increment"
+            android:title="One Percent Hack" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Alarm Settings" >
+        <ListPreference
+            android:defaultValue="-99"
+            android:dialogTitle="Silence after"
+            android:entries="@array/silenceAfter"
+            android:entryValues="@array/silenceAfter_values"
+            android:key="silence_after"
+            android:negativeButtonText="Cancel"
+            android:title="Silence after" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="playwhensilent"
+            android:summary="Play alarm even when the phone is in silent mode"
+            android:title="Alarm in silent mode" />
+
+        <VolumePreference
+            android:key="alarm_volume"
+            android:title="Alarm Volume" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Help" >
+        <PreferenceScreen
+            android:icon="@drawable/clog"
+            android:key="clog"
+            android:title="Change Log" >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/qcg"
+            android:key="qstartg"
+            android:summary="Learn about features of Battery Caster"
+            android:title="Quick Start Guide" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Feedback" >
+        <PreferenceScreen
+            android:icon="@drawable/rate"
+            android:key="ratueusmain"
+            android:summary="Rate us with 5 stars if you like"
+            android:title="Rate us" >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/suggest"
+            android:key="suggestfeature"
+            android:summary="Write to us any feature you would like us to include or feedback"
+            android:title="Suggest a Feature or Give Feedback" >
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/report"
+            android:key="reportbug"
+            android:summary="If you don&apos;t like something in our app, tell us and we will try our best to satify you"
+            android:title="Report a bug" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

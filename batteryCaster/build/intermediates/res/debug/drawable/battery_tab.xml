@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Non focused states -->
+    <item android:drawable="@drawable/battery_icon_normal1" android:state_focused="false" android:state_pressed="false" android:state_selected="false"/>
+    <item android:drawable="@drawable/battery_icon_normal1" android:state_focused="false" android:state_pressed="false" android:state_selected="true"/>
+
+    <!-- Focused states -->
+    <item android:drawable="@drawable/battery_icon_activated" android:state_focused="true" android:state_pressed="false" android:state_selected="false"/>
+    <item android:drawable="@drawable/battery_icon_activated" android:state_focused="true" android:state_pressed="false" android:state_selected="true"/>
+
+    <!-- Pressed -->
+    <item android:drawable="@drawable/battery_icon_activated" android:state_pressed="true"/>
+
+</selector><!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/drawable/battery_tab.xml -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+
+    <release
+        releasedate="2013-2-17"
+        version="0.3b"
+        versioncode="3" >
+        <change>
+Added more options in power profile.
+        </change>
+    </release>
+    <release
+        releasedate="2013-2-8"
+        version="0.2b"
+        versioncode="2" >
+        <change>
+Fixed a bug related to alarm.
+        </change>
+    </release>
+    <release
+        releasedate="2013-2-6"
+        version="0.1b"
+        versioncode="1" >
+        <change>
+Initial Release
+        </change>
+    </release>
+
+</changelog>

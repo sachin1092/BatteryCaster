@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nineoldlibrary">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/glowPadLib/libs/nineoldlibrary.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

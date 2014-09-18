@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:internal="http://schemas.android.com/apk/prv/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swn_collapsed_hitspace"
+    android:layout_width="fill_parent"
+    android:layout_height="64.0dip"
+    internal:layout_maxHeight="64.0dip"
+    internal:layout_minHeight="64.0dip"
+    android:background="@drawable/white_back"
+    tools:ignore="HardcodedText,ContentDescription" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/notification_large_icon_width"
+        android:layout_height="@dimen/notification_large_icon_height"
+        android:contentDescription="@string/todo"
+        android:scaleType="center" >
+
+        <ImageView
+            android:layout_width="@dimen/notification_large_icon_widthn"
+            android:layout_height="@dimen/notification_large_icon_heightn"
+            android:alpha=".5"
+            android:layout_centerInParent="true"
+            android:background="@drawable/main_button_normal"
+            android:scaleType="center" />
+
+        <ImageView
+            android:id="@+id/notification_icon"
+            android:layout_width="@dimen/notification_large_icon_width"
+            android:layout_height="@dimen/notification_large_icon_height"
+            android:scaleType="center"
+            android:src="@drawable/simple_72" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:layout_marginLeft="@dimen/notification_large_icon_width"
+        android:layout_marginStart="@dimen/notification_large_icon_width"
+        android:gravity="center"
+        android:minHeight="@dimen/notification_large_icon_height"
+        android:orientation="vertical"
+        android:paddingBottom="2.0dip"
+        android:paddingEnd="8.0dip"
+        android:paddingLeft="0dip"
+        android:paddingTop="2.0dip" >
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvNotiPrevmainText"
+                android:layout_width="0.0dip"
+                android:textColor="#f000"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:singleLine="true"
+                android:text="Main Text"
+                android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Title" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvNotiPrevsubText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8.0dip"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:singleLine="true"
+            android:text="Subtext"
+            android:textColor="#f000"
+            android:textAppearance="@style/TextAppearance.StatusBar.EventContent"
+            />
+    </LinearLayout>
+
+</FrameLayout>

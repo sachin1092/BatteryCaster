@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/saphion.batterycaster"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF" >
+
+    <View
+        android:id="@+id/light"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/blackish" />
+
+    <saphion.pageindicators.FixedTabsView
+        android:id="@+id/fixed_icon_tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/light"
+        android:background="@color/blackish"
+        app:dividerColor="#33FFFFFF"
+        app:dividerMarginBottom="12dip"
+        app:dividerMarginTop="12dip" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/fixed_icon_tabs" />
+
+</RelativeLayout>

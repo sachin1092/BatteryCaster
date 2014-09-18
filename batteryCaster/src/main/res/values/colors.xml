@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#ff000000</color>
+    <color name="blackish_trans">#cc1c1e20</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#66ffffff</color>
+    <color name="alarm_whiteish">#0cffffff</color>
+    <color name="clock_white">#ffffffff</color>
+    <color name="clock_gray">#80ffffff</color>
+    <color name="alarm_selected_color">#aa0099cc</color>
+    <color name="bkg_start">#003291c0</color>
+    <color name="bkg">#2033b5e5</color>
+    <color name="blackish">#1c1e20</color>
+    <color name="blackish_selected">#0cffffff</color>
+    <color name="main_button_normal">#606060</color>
+    <color name="main_button_selected">#909090</color>
+    <color name="main_button_red_normal">#ff4444</color>
+    <!-- same as clock_red -->
+    <color name="main_button_red_selected">#c0ff4444</color>
+    <color name="main_button_blue_normal">#1e8bd4</color>
+    <color name="main_button_blue_selected">#c01e8bd4</color>
+    
+    <color name="divider">#ffcccccc</color>
+    <color name="bottom_bar_text">#ff888888</color>
+    <color name="bottom_bar_bg">#fff1f1f1</color>
+    <color name="actions_bg">#ff3c3c3c</color>
+    <color name="actions_divider">#ff888888</color>
+
+</resources>

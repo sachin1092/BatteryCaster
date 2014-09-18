@@ -1,0 +1,2520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/arrays.xml -->
+    <eat-comment />
+
+    <string-array name="ScreenOff">
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="ScreenOffVals">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>360</item>
+        <item>-99</item>
+    </string-array>
+    <string-array name="TriggerMode">
+        <item>Charging</item>
+        <item>Discharging</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="batterynoti">
+        <item>Battery Remaining</item>
+        <item>Temperature</item>
+        <item>Health, Temperature</item>
+        <item>Duration in which phone will get Charged/Discharged</item>
+        <item>Time when phone will get Charged/Discharged</item>
+        <item>Time When Charging/Discharging started</item>
+        <item>Duration since last Charged/Discharged</item>
+    </string-array>
+    <string-array name="notipriority">
+        <item>High: Icon, Notification on top of certain apps</item>
+        <item>Min: No icon</item>
+        <item>Default</item>
+        <item>Low: Less priority</item>
+        <item>Max: Max priority, Always on top</item>
+    </string-array>
+    <string-array name="onclickactions">
+        <item>Battery Info and Chart</item>
+        <item>Battery Use</item>
+        <item>Notification Settings</item>
+        <item>Toggles</item>
+    </string-array>
+    <string-array name="ringmode">
+        <item>Silent</item>
+        <item>Vibrate Only</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="ringmodevals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="silenceAfter" translatable="false">
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+        <item>25 Minutes</item>
+        <item>30 Minutes</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="silenceAfter_values" ns1:ignore="MissingTranslation">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-99</item>
+    </string-array>
+    <string-array name="sleeptimeout">
+        <item>15 Seconds</item>
+        <item>30 Seconds</item>
+        <item>1 Minute</item>
+        <item>2 Minutes</item>
+        <item>10 Minutes</item>
+        <item>30 Minutes</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="sleeptimeoutvals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>-1</item>
+    </string-array>
+
+    <array name="snooze_dismiss_description">
+        <item>@null</item>
+        <item>@null</item>
+        <item>dismiss</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_descriptions">
+        <item>@null</item>
+        <item>dismiss</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_direction_description">
+        <item>@null</item>
+        <item>@null</item>
+        <item>top</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_direction_descriptions">
+        <item>@null</item>
+        <item>top</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_drawable">
+        <item>@null</item>
+        <item>@null</item>
+        <item>@drawable/ic_item_dismiss</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_drawables">
+        <item>@null</item>
+        <item>@drawable/ic_item_dismiss</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="actionBarDivider" format="reference" />
+    <attr name="actionBarItemBackground" format="reference" />
+    <attr name="actionBarSize" format="dimension" />
+    <attr name="actionBarSplitStyle" format="reference" />
+    <attr name="actionBarStyle" format="reference" />
+    <attr name="actionBarTabBarStyle" format="reference" />
+    <attr name="actionBarTabStyle" format="reference" />
+    <attr name="actionBarTabTextStyle" format="reference" />
+    <attr name="actionBarWidgetTheme" format="reference" />
+    <attr name="actionButtonStyle" format="reference" />
+    <attr name="actionMenuTextAppearance" format="reference" />
+    <attr name="actionMenuTextColor" format="color|reference" />
+    <attr name="actionModeBackground" format="reference" />
+    <attr name="actionModeCloseButtonStyle" format="reference" />
+    <attr name="actionModeCloseDrawable" format="reference" />
+    <attr name="actionModeCopyDrawable" format="reference" />
+    <attr name="actionModeCutDrawable" format="reference" />
+    <attr name="actionModeFindDrawable" format="reference" />
+    <attr name="actionModePasteDrawable" format="reference" />
+    <attr name="actionModePopupWindowStyle" format="reference" />
+    <attr name="actionModeSelectAllDrawable" format="reference" />
+    <attr name="actionModeShareDrawable" format="reference" />
+    <attr name="actionModeSplitBackground" format="reference" />
+    <attr name="actionModeStyle" format="reference" />
+    <attr name="actionModeWebSearchDrawable" format="reference" />
+    <attr name="actionOverflowButtonStyle" format="reference" />
+    <attr name="activityChooserViewStyle" format="reference" />
+    <attr name="buttonBarButtonStyle" format="reference" />
+    <attr name="buttonBarStyle" format="reference" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="centered" format="boolean" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="dividerHorizontal" format="reference" />
+    <attr name="dividerVertical" format="reference" />
+    <attr name="dropDownListViewStyle" format="reference" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/glowPadLib/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="gravity">
+
+        <!-- Push object to the top of its container, not changing its size. -->
+        <flag name="top" value="0x30" />
+        <!-- Push object to the bottom of its container, not changing its size. -->
+        <flag name="bottom" value="0x50" />
+        <!-- Push object to the left of its container, not changing its size. -->
+        <flag name="left" value="0x03" />
+        <!-- Push object to the right of its container, not changing its size. -->
+        <flag name="right" value="0x05" />
+        <!-- Place object in the vertical center of its container, not changing its size. -->
+        <flag name="center_vertical" value="0x10" />
+        <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+        <flag name="fill_vertical" value="0x70" />
+        <!-- Place object in the horizontal center of its container, not changing its size. -->
+        <flag name="center_horizontal" value="0x01" />
+        <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+        <flag name="fill_horizontal" value="0x07" />
+        <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+        <flag name="center" value="0x11" />
+        <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+        <flag name="fill" value="0x77" />
+        <!--
+             Additional option that can be set to have the top and/or bottom edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the vertical gravity: a top gravity will clip the bottom
+             edge, a bottom gravity will clip the top edge, and neither will clip both edges.
+        -->
+        <flag name="clip_vertical" value="0x80" />
+        <!--
+             Additional option that can be set to have the left and/or right edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the horizontal gravity: a left gravity will clip the right
+             edge, a right gravity will clip the left edge, and neither will clip both edges.
+        -->
+        <flag name="clip_horizontal" value="0x08" />
+    </attr>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="height" format="dimension" />
+    <attr name="homeAsUpIndicator" format="reference" />
+    <attr name="isLightTheme" format="boolean" />
+    <attr name="listPopupWindowStyle" format="reference" />
+    <attr name="listPreferredItemHeight" format="dimension" />
+    <attr name="listPreferredItemHeightLarge" format="dimension" />
+    <attr name="listPreferredItemHeightSmall" format="dimension" />
+    <attr name="listPreferredItemPaddingLeft" format="dimension" />
+    <attr name="listPreferredItemPaddingRight" format="dimension" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <attr name="messageBarButtonStyle" format="reference" />
+    <attr name="messageBarContainerStyle" format="reference" />
+    <attr name="messageBarTextStyle" format="reference" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/numberPickerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="numberPickerStyle" format="reference" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="searchDropdownBackground" format="reference" />
+    <attr name="searchResultListItemHeight" format="dimension" />
+    <attr name="searchViewAutoCompleteTextView" format="reference" />
+    <attr name="searchViewCloseIcon" format="reference" />
+    <attr name="searchViewEditQuery" format="reference" />
+    <attr name="searchViewEditQueryBackground" format="reference" />
+    <attr name="searchViewGoIcon" format="reference" />
+    <attr name="searchViewSearchIcon" format="reference" />
+    <attr name="searchViewTextField" format="reference" />
+    <attr name="searchViewTextFieldRight" format="reference" />
+    <attr name="searchViewVoiceIcon" format="reference" />
+    <attr name="selectableItemBackground" format="reference" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="selectedColor" format="color" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="spinnerDropDownItemStyle" format="reference" />
+    <attr name="spinnerStyle" format="reference" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="strokeWidth" format="dimension" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="textAppearanceLargePopupMenu" format="reference" />
+    <attr name="textAppearanceListItem" format="reference" />
+    <attr name="textAppearanceListItemSmall" format="reference" />
+    <attr name="textAppearanceSearchResultSubtitle" format="reference" />
+    <attr name="textAppearanceSearchResultTitle" format="reference" />
+    <attr name="textAppearanceSmallPopupMenu" format="reference" />
+    <attr name="textColorSearchUrl" format="reference|color" />
+    <attr name="title" format="string" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="unselectedColor" format="color" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/bools.xml -->
+    <eat-comment />
+
+    <bool name="Wenabled">true</bool>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="abc_split_action_bar_is_narrow">true</bool>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <color name="abc_search_url_text_normal">#7fa87f</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="actions_bg">#ff3c3c3c</color>
+    <color name="actions_divider">#ff888888</color>
+    <color name="alarm_selected_color">#aa0099cc</color>
+    <color name="alarm_whiteish">#0cffffff</color>
+    <color name="bkg">#2033b5e5</color>
+    <color name="bkg_start">#003291c0</color>
+    <color name="black">#ff000000</color>
+    <color name="blackish">#1c1e20</color>
+    <color name="blackish_selected">#0cffffff</color>
+    <color name="blackish_trans">#cc1c1e20</color>
+    <color name="bottom_bar_bg">#fff1f1f1</color>
+    <color name="bottom_bar_text">#ff888888</color>
+    <color name="clock_gray">#80ffffff</color>
+    <color name="clock_white">#ffffffff</color>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="divider">#ffcccccc</color>
+    <color name="main_button_blue_normal">#1e8bd4</color>
+    <color name="main_button_blue_selected">#c01e8bd4</color>
+    <color name="main_button_normal">#606060</color>
+    <color name="main_button_red_normal">#ff4444</color>
+    <color name="main_button_red_selected">#c0ff4444</color>
+    <color name="main_button_selected">#909090</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#66ffffff</color>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ActionBar">
+
+        <!-- The type of navigation to use. -->
+        <attr name="navigationMode">
+
+            <!-- Normal static title text -->
+            <enum name="normal" value="0" />
+            <!-- The action bar will use a selection list for navigation. -->
+            <enum name="listMode" value="1" />
+            <!-- The action bar will use a series of horizontal tabs for navigation. -->
+            <enum name="tabMode" value="2" />
+        </attr>
+        <!-- Options affecting how the action bar is displayed. -->
+        <attr name="displayOptions">
+            <flag name="useLogo" value="0x1" />
+            <flag name="showHome" value="0x2" />
+            <flag name="homeAsUp" value="0x4" />
+            <flag name="showTitle" value="0x8" />
+            <flag name="showCustom" value="0x10" />
+            <flag name="disableHome" value="0x20" />
+        </attr>
+        <!-- Specifies title text used for navigationMode="normal" -->
+        <attr name="title" />
+        <!-- Specifies subtitle text used for navigationMode="normal" -->
+        <attr name="subtitle" format="string" />
+        <!-- Specifies a style to use for title text. -->
+        <attr name="titleTextStyle" format="reference" />
+        <!-- Specifies a style to use for subtitle text. -->
+        <attr name="subtitleTextStyle" format="reference" />
+        <!-- Specifies the drawable used for the application icon. -->
+        <attr name="icon" format="reference" />
+        <!-- Specifies the drawable used for the application logo. -->
+        <attr name="logo" format="reference" />
+        <!-- Specifies the drawable used for item dividers. -->
+        <attr name="divider" format="reference" />
+        <!-- Specifies a background drawable for the action bar. -->
+        <attr name="background" format="reference" />
+        <!-- Specifies a background drawable for a second stacked row of the action bar. -->
+        <attr name="backgroundStacked" format="reference|color" />
+        <!-- Specifies a background drawable for the bottom component of a split action bar. -->
+        <attr name="backgroundSplit" format="reference|color" />
+        <!-- Specifies a layout for custom navigation. Overrides navigationMode. -->
+        <attr name="customNavigationLayout" format="reference" />
+        <!-- Specifies a fixed height. -->
+        <attr name="height" />
+        <!-- Specifies a layout to use for the "home" section of the action bar. -->
+        <attr name="homeLayout" format="reference" />
+        <!-- Specifies a style resource to use for an embedded progress bar. -->
+        <attr name="progressBarStyle" format="reference" />
+        <!-- Specifies a style resource to use for an indeterminate progress spinner. -->
+        <attr name="indeterminateProgressStyle" format="reference" />
+        <!-- Specifies the horizontal padding on either end for an embedded progress bar. -->
+        <attr name="progressBarPadding" format="dimension" />
+        <!--
+             Specifies padding that should be applied to the left and right sides of
+             system-provided items in the bar.
+        -->
+        <attr name="itemPadding" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ActionBarLayout">
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+    <declare-styleable name="ActionBarWindow">
+        <attr name="windowActionBar" format="boolean" />
+        <attr name="windowActionBarOverlay" format="boolean" />
+        <attr name="windowSplitActionBar" format="boolean" />
+
+        <!--
+             A fixed width for the window along the major axis of the screen,
+             that is, when in landscape. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension.
+        -->
+        <attr name="windowFixedWidthMajor" format="dimension|fraction" />
+        <!--
+             A fixed height for the window along the minor axis of the screen,
+             that is, when in landscape. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension.
+        -->
+        <attr name="windowFixedHeightMinor" format="dimension|fraction" />
+
+        <!--
+             A fixed width for the window along the minor axis of the screen,
+             that is, when in portrait. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension.
+        -->
+        <attr name="windowFixedWidthMinor" format="dimension|fraction" />
+        <!--
+             A fixed height for the window along the major axis of the screen,
+             that is, when in portrait. Can be either an absolute dimension
+             or a fraction of the screen size in that dimension.
+        -->
+        <attr name="windowFixedHeightMajor" format="dimension|fraction" />
+    </declare-styleable>
+    <declare-styleable name="ActionMenuItemView">
+        <attr name="android:minWidth" />
+    </declare-styleable>
+    <declare-styleable name="ActionMenuView">
+        <!-- Size of padding on either end of a divider. -->
+    </declare-styleable>
+    <declare-styleable name="ActionMode">
+
+        <!-- Specifies a style to use for title text. -->
+        <attr name="titleTextStyle" />
+        <!-- Specifies a style to use for subtitle text. -->
+        <attr name="subtitleTextStyle" />
+        <!-- Specifies a background for the action mode bar. -->
+        <attr name="background" />
+        <!-- Specifies a background for the split action mode bar. -->
+        <attr name="backgroundSplit" />
+        <!-- Specifies a fixed height for the action mode bar. -->
+        <attr name="height" />
+    </declare-styleable>
+    <declare-styleable name="ActivityChooserView">
+
+        <!-- The maximal number of items initially shown in the activity list. -->
+        <attr name="initialActivityCount" format="string" />
+        <!--
+             The drawable to show in the button for expanding the activities overflow popup.
+             <strong>Note:</strong> Clients would like to set this drawable
+             as a clue about the action the chosen activity will perform. For
+             example, if share activity is to be chosen the drawable should
+             give a clue that sharing is to be performed.
+        -->
+        <attr name="expandActivityOverflowButtonDrawable" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/library/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="Android">
+
+        <!-- Text color. -->
+        <attr name="android:textColor" />
+        <!-- Size of the text. Recommended dimension type for text is "sp" for scaled-pixels (example: 15sp). -->
+        <attr name="android:textSize" />
+        <!-- Style (bold, italic, bolditalic) for the text. -->
+        <attr name="android:textStyle" />
+        <!-- Typeface (normal, sans, serif, monospace) for the text. -->
+        <attr name="android:typeface" />
+        <!-- Color of the text selection highlight. -->
+        <attr name="android:textColorHighlight" />
+        <!-- Color of the hint text. -->
+        <attr name="android:textColorHint" />
+        <!-- Color of the links. -->
+        <attr name="android:textColorLink" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="CirclePageIndicator">
+
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation" />
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="CompatTextView">
+
+        <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
+        <attr name="textAllCaps" format="reference|boolean" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/showcase_library/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="CustomTheme">
+        <attr name="showcaseViewStyle" format="reference" />
+        <attr name="showcaseButtonStyle" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/glowPadLib/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="GlowPadView">
+
+        <!-- Reference to an array resource that be shown as targets around a circle. -->
+        <attr name="targetDrawables" format="reference" />
+
+        <!-- Reference to an array resource that be used as description for the targets around the circle. -->
+        <attr name="targetDescriptions" format="reference" />
+
+        <!-- Reference to an array resource that be used to announce the directions with targets around the circle. -->
+        <attr name="directionDescriptions" format="reference" />
+
+        <!-- Sets a drawable as the center. -->
+        <attr name="handleDrawable" format="reference" />
+
+        <!-- Drawable to use for wave ripple animation. -->
+        <attr name="outerRingDrawable" format="reference" />
+
+        <!-- Drawble used for drawing points -->
+        <attr name="pointDrawable" format="reference" />
+
+        <!-- Inner radius of glow area. -->
+        <attr name="innerRadius" format="dimension" />
+
+        <!-- Outer radius of glow area. Target icons will be drawn on this circle. -->
+        <attr name="outerRadius" format="dimension" />
+
+        <!-- Radius of glow under finger. -->
+        <attr name="glowRadius" format="dimension" />
+
+        <!-- Tactile feedback duration for actions. Set to '0' for no vibration. -->
+        <attr name="vibrationDuration" format="integer" />
+
+        <!-- How close we need to be before snapping to a target. -->
+        <attr name="snapMargin" format="dimension" />
+
+        <!-- Number of waves/chevrons to show in animation. -->
+        <attr name="feedbackCount" format="integer" />
+
+        <!-- Used when the handle shouldn't wait to be hit before following the finger -->
+        <attr name="alwaysTrackFinger" format="boolean" />
+
+        <!-- Location along the circle of the first item, in degrees. -->
+        <attr name="firstItemOffset" format="float" />
+
+        <!-- Causes targets to snap to the finger location on activation. -->
+        <attr name="magneticTargets" format="boolean" />
+        <attr name="gravity" />
+
+        <!--
+             Determine whether the glow pad is allowed to scale to fit the bounds indicated
+            by its parent. If this is set to false, no scaling will occur. If this is set to true
+            scaling will occur to fit for any axis in which gravity is set to center.
+        -->
+        <attr name="allowScaling" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/library/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="LSwitchTheme">
+        <attr name="switchStyle" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="LinePageIndicator">
+
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the unselected lines that represent the pages. -->
+        <attr name="unselectedColor" />
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="selectedColor" />
+        <!-- Width of each indicator line. -->
+        <attr name="lineWidth" format="dimension" />
+        <!-- Width of each indicator line's stroke. -->
+        <attr name="strokeWidth" />
+        <!-- Width of the gap between each indicator line. -->
+        <attr name="gapWidth" format="dimension" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/glowPadLib/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="LinearLayout">
+        <attr name="gravity" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="LinearLayoutICS">
+
+        <!-- Drawable to use as a vertical divider between buttons. -->
+        <attr name="divider" />
+        <!-- Setting for which dividers to show. -->
+        <attr name="showDividers">
+            <flag name="none" value="0" />
+            <flag name="beginning" value="1" />
+            <flag name="middle" value="2" />
+            <flag name="end" value="4" />
+        </attr>
+        <!-- Size of padding on either end of a divider. -->
+        <attr name="dividerPadding" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MenuGroup">
+
+        <!-- The ID of the group. -->
+        <attr name="android:id" />
+
+        <!--
+             The category applied to all items within this group.
+             (This will be or'ed with the orderInCategory attribute.)
+        -->
+        <attr name="android:menuCategory" />
+
+        <!--
+             The order within the category applied to all items within this group.
+             (This will be or'ed with the category attribute.)
+        -->
+        <attr name="android:orderInCategory" />
+
+        <!-- Whether the items are capable of displaying a check mark. -->
+        <attr name="android:checkableBehavior" />
+
+        <!-- Whether the items are shown/visible. -->
+        <attr name="android:visible" />
+
+        <!-- Whether the items are enabled. -->
+        <attr name="android:enabled" />
+    </declare-styleable>
+    <declare-styleable name="MenuItem">
+
+        <!-- The ID of the item. -->
+        <attr name="android:id" />
+
+        <!--
+             The category applied to the item.
+             (This will be or'ed with the orderInCategory attribute.)
+        -->
+        <attr name="android:menuCategory" />
+
+        <!--
+             The order within the category applied to the item.
+             (This will be or'ed with the category attribute.)
+        -->
+        <attr name="android:orderInCategory" />
+
+        <!-- The title associated with the item. -->
+        <attr name="android:title" />
+
+        <!--
+             The condensed title associated with the item.  This is used in situations where the
+             normal title may be too long to be displayed.
+        -->
+        <attr name="android:titleCondensed" />
+
+        <!--
+             The icon associated with this item.  This icon will not always be shown, so
+             the title should be sufficient in describing this item.
+        -->
+        <attr name="android:icon" />
+
+        <!--
+             The alphabetic shortcut key.  This is the shortcut when using a keyboard
+             with alphabetic keys.
+        -->
+        <attr name="android:alphabeticShortcut" />
+
+        <!--
+             The numeric shortcut key.  This is the shortcut when using a numeric (e.g., 12-key)
+             keyboard.
+        -->
+        <attr name="android:numericShortcut" />
+
+        <!-- Whether the item is capable of displaying a check mark. -->
+        <attr name="android:checkable" />
+
+        <!--
+             Whether the item is checked.  Note that you must first have enabled checking with
+             the checkable attribute or else the check mark will not appear.
+        -->
+        <attr name="android:checked" />
+
+        <!-- Whether the item is shown/visible. -->
+        <attr name="android:visible" />
+
+        <!-- Whether the item is enabled. -->
+        <attr name="android:enabled" />
+
+        <!--
+             Name of a method on the Context used to inflate the menu that will be
+             called when the item is clicked.
+        -->
+        <attr name="android:onClick" />
+
+        <!-- How this item should display in the Action Bar, if present. -->
+        <attr name="showAsAction">
+
+            <!--
+                 Never show this item in an action bar, show it in the overflow menu instead.
+                 Mutually exclusive with "ifRoom" and "always".
+            -->
+            <flag name="never" value="0" />
+            <!--
+                 Show this item in an action bar if there is room for it as determined
+                 by the system. Favor this option over "always" where possible.
+                 Mutually exclusive with "never" and "always".
+            -->
+            <flag name="ifRoom" value="1" />
+            <!--
+                 Always show this item in an actionbar, even if it would override
+                 the system's limits of how much stuff to put there. This may make
+                 your action bar look bad on some screens. In most cases you should
+                 use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never".
+            -->
+            <flag name="always" value="2" />
+            <!--
+                 When this item is shown as an action in the action bar, show a text
+                 label with it even if it has an icon representation.
+            -->
+            <flag name="withText" value="4" />
+            <!--
+                 This item's action view collapses to a normal menu
+                 item. When expanded, the action view takes over a
+                 larger segment of its container.
+            -->
+            <flag name="collapseActionView" value="8" />
+        </attr>
+
+        <!--
+             An optional layout to be used as an action view.
+             See {@link android.view.MenuItem#setActionView(android.view.View)}
+             for more info.
+        -->
+        <attr name="actionLayout" format="reference" />
+
+        <!--
+             The name of an optional View class to instantiate and use as an
+             action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
+             for more info.
+        -->
+        <attr name="actionViewClass" format="string" />
+
+        <!--
+             The name of an optional ActionProvider class to instantiate an action view
+             and perform operations such as default action for that menu item.
+             See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
+             for more info.
+        -->
+        <attr name="actionProviderClass" format="string" />
+    </declare-styleable>
+    <declare-styleable name="MenuView">
+
+        <!-- Default appearance of menu item text. -->
+        <attr name="android:itemTextAppearance" />
+        <!-- Default horizontal divider between rows of menu items. -->
+        <attr name="android:horizontalDivider" />
+        <!-- Default vertical divider between menu items. -->
+        <attr name="android:verticalDivider" />
+        <!-- Default background for the menu header. -->
+        <attr name="android:headerBackground" />
+        <!-- Default background for each menu item. -->
+        <attr name="android:itemBackground" />
+        <!-- Default animations for the menu. -->
+        <attr name="android:windowAnimationStyle" />
+        <!-- Default disabled icon alpha for each menu item that shows an icon. -->
+        <attr name="android:itemIconDisabledAlpha" />
+        <!-- Whether space should be reserved in layout when an icon is missing. -->
+        <attr name="android:preserveIconSpacing" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/numberPickerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="NumberPicker">
+
+        <!-- @hide Color for the solid color background if such for optimized rendering. -->
+        <attr name="solidColor" format="color|reference" />
+        <!-- @hide The divider for making the selection area. -->
+        <attr name="selectionDivider" format="reference" />
+        <!-- @hide The height of the selection divider. -->
+        <attr name="selectionDividerHeight" format="dimension" />
+        <!-- @hide The distance between the two selection dividers. -->
+        <attr name="selectionDividersDistance" format="dimension" />
+        <!-- @hide The min height of the NumberPicker. -->
+        <attr name="internalMinHeight" format="dimension" />
+        <!-- @hide The max height of the NumberPicker. -->
+        <attr name="internalMaxHeight" format="dimension" />
+        <!-- @hide The min width of the NumberPicker. -->
+        <attr name="internalMinWidth" format="dimension" />
+        <!-- @hide The max width of the NumberPicker. -->
+        <attr name="internalMaxWidth" format="dimension" />
+        <!-- @hide The layout of the number picker. -->
+        <attr name="internalLayout" format="reference" />
+        <!-- @hide The drawable for pressed virtual (increment/decrement) buttons. -->
+        <attr name="virtualButtonPressedDrawable" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="SearchView">
+
+        <!--
+             The default state of the SearchView. If true, it will be iconified when not in
+             use and expanded when clicked.
+        -->
+        <attr name="iconifiedByDefault" format="boolean" />
+        <!-- An optional maximum width of the SearchView. -->
+        <attr name="android:maxWidth" />
+        <!-- An optional query hint string to be displayed in the empty query field. -->
+        <attr name="queryHint" format="string" />
+        <!-- The IME options to set on the query text field. -->
+        <attr name="android:imeOptions" />
+        <!-- The input type to set on the query text field. -->
+        <attr name="android:inputType" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/showcase_library/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ShowcaseButton">
+        <attr name="buttonBackgroundColor" format="color|reference" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="text" format="string|reference" />
+    </declare-styleable>
+    <declare-styleable name="ShowcaseView">
+        <attr name="backgroundColor" format="color|reference" />
+        <attr name="detailTextColor" format="color|reference" />
+        <attr name="titleTextColor" format="color|reference" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="Spinner">
+
+        <!-- The prompt to display when the spinner's dialog is shown. -->
+        <attr name="prompt" format="reference" />
+        <!-- Display mode for spinner options. -->
+        <attr name="spinnerMode" format="enum">
+
+            <!-- Spinner options will be presented to the user as a dialog window. -->
+            <enum name="dialog" value="0" />
+            <!--
+                 Spinner options will be presented to the user as an inline dropdown
+                 anchored to the spinner widget itself.
+            -->
+            <enum name="dropdown" value="1" />
+        </attr>
+        <!-- List selector to use for spinnerMode="dropdown" display. -->
+        <attr name="android:dropDownSelector" />
+        <!-- Background drawable to use for the dropdown in spinnerMode="dropdown". -->
+        <attr name="android:popupBackground" />
+        <!--
+             Vertical offset from the spinner widget for positioning the dropdown in
+             spinnerMode="dropdown".
+        -->
+        <attr name="android:dropDownVerticalOffset" />
+        <!--
+             Horizontal offset from the spinner widget for positioning the dropdown
+             in spinnerMode="dropdown".
+        -->
+        <attr name="android:dropDownHorizontalOffset" />
+        <!-- Width of the dropdown in spinnerMode="dropdown". -->
+        <attr name="android:dropDownWidth" />
+        <!--
+             Reference to a layout to use for displaying a prompt in the dropdown for
+             spinnerMode="dropdown". This layout must contain a TextView with the id
+             {@code @android:id/text1} to be populated with the prompt text.
+        -->
+        <attr name="popupPromptView" format="reference" />
+        <!-- Gravity setting for positioning the currently selected item. -->
+        <attr name="android:gravity" />
+        <!--
+             Whether this spinner should mark child views as enabled/disabled when
+             the spinner itself is enabled/disabled.
+        -->
+        <attr name="disableChildrenWhenDisabled" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/library/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="Switch">
+
+        <!-- Drawable to use as the "thumb" that switches back and forth. -->
+        <attr name="thumb" format="reference" />
+        <!-- Drawable to use as the "track" that the switch thumb slides within. -->
+        <attr name="track" format="reference" />
+        <!-- Minimum width for the switch component -->
+        <attr name="switchMinWidth" format="dimension" />
+        <!-- Minimum space between the switch and caption text -->
+        <attr name="switchPadding" format="dimension" />
+        <attr name="thumbWidth" format="dimension" />
+        <attr name="thumbAnimateOffset" format="dimension" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="Theme">
+
+        <!-- Default ActionBar dropdown style. -->
+        <attr name="actionDropDownStyle" format="reference" />
+        <!-- The preferred item height for dropdown lists. -->
+        <attr name="dropdownListPreferredItemHeight" format="dimension" />
+        <!-- Default PopupMenu style. -->
+        <attr name="popupMenuStyle" format="reference" />
+
+        <!-- ============ -->
+        <!-- Panel styles -->
+        <!-- ============ -->
+        <eat-comment />
+
+        <!-- Default Panel Menu width. -->
+        <attr name="panelMenuListWidth" format="dimension" />
+
+        <!-- Default Panel Menu style. -->
+        <attr name="panelMenuListTheme" format="reference" />
+
+        <!-- Drawable used as a background for selected list items. -->
+        <attr name="listChoiceBackgroundIndicator" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="TitlePageIndicator">
+
+        <!-- Screen edge padding. -->
+        <attr name="clipPadding" format="dimension" />
+        <!-- Color of the footer line and indicator. -->
+        <attr name="footerColor" format="color" />
+        <!-- Height of the footer line. -->
+        <attr name="footerLineHeight" format="dimension" />
+        <!-- Style of the indicator. Default is triangle. -->
+        <attr name="footerIndicatorStyle">
+            <enum name="none" value="0" />
+            <enum name="triangle" value="1" />
+            <enum name="underline" value="2" />
+        </attr>
+        <!-- Height of the indicator above the footer line. -->
+        <attr name="footerIndicatorHeight" format="dimension" />
+        <!-- Left and right padding of the underline indicator. -->
+        <attr name="footerIndicatorUnderlinePadding" format="dimension" />
+        <!-- Padding between the bottom of the title and the footer. -->
+        <attr name="footerPadding" format="dimension" />
+        <!-- Position of the line. -->
+        <attr name="linePosition">
+            <enum name="bottom" value="0" />
+            <enum name="top" value="1" />
+        </attr>
+        <!-- Color of the selected title. -->
+        <attr name="selectedColor" />
+        <!-- Whether or not the selected item is displayed as bold. -->
+        <attr name="selectedBold" format="boolean" />
+        <!-- Color of regular titles. -->
+        <attr name="android:textColor" />
+        <!-- Size of title text. -->
+        <attr name="android:textSize" />
+        <!-- Padding between titles when bumping into each other. -->
+        <attr name="titlePadding" format="dimension" />
+        <!-- Padding between titles and the top of the View. -->
+        <attr name="topPadding" format="dimension" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator">
+
+        <!-- Whether or not the selected indicator fades. -->
+        <attr name="fades" format="boolean" />
+        <!-- Length of the delay to fade the indicator. -->
+        <attr name="fadeDelay" format="integer" />
+        <!-- Length of the indicator fade to transparent. -->
+        <attr name="fadeLength" format="integer" />
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="selectedColor" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="View">
+
+        <!-- Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}. -->
+        <attr name="paddingStart" format="dimension" />
+        <!-- Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}. -->
+        <attr name="paddingEnd" format="dimension" />
+
+        <!--
+             Boolean that controls whether a view can take focus.  By default the user can not
+             move focus to a view; by setting this attribute to true the view is
+             allowed to take focus.  This value does not impact the behavior of
+             directly calling {@link android.view.View#requestFocus}, which will
+             always request focus regardless of this view.  It only impacts where
+             focus navigation will try to move focus.
+        -->
+        <attr name="android:focusable" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ViewPagerExtensions">
+        <attr name="fadeOutDelay" format="integer" />
+        <attr name="fadeOutDuration" format="integer" />
+        <attr name="textColorSelected" format="color" />
+        <attr name="lineColor" format="color" />
+        <attr name="lineColorSelected" format="color" />
+        <attr name="lineHeight" format="dimension" />
+        <attr name="lineHeightSelected" format="dimension" />
+        <attr name="dividerColor" format="color" />
+        <attr name="dividerMarginTop" format="dimension" />
+        <attr name="dividerMarginBottom" format="dimension" />
+        <attr name="dividerDrawable" format="reference" />
+        <attr name="outsideOffset" format="dimension" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ViewPagerIndicator">
+
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference" />
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference" />
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="WidgetContainer">
+        <attr name="android:text" />
+        <attr name="android:layout" />
+        <attr name="titleLayout" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="abc_action_bar_default_height">48dip</dimen>
+    <dimen name="abc_action_bar_icon_vertical_padding">8dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">40dp</dimen>
+    <dimen name="abc_action_bar_stacked_max_height">48dp</dimen>
+    <dimen name="abc_action_bar_stacked_tab_max_width">180dp</dimen>
+    <dimen name="abc_action_bar_subtitle_bottom_margin">5dip</dimen>
+    <dimen name="abc_action_bar_subtitle_text_size">14dp</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin">-3dp</dimen>
+    <dimen name="abc_action_bar_title_text_size">18dp</dimen>
+    <dimen name="abc_action_button_min_width">56dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">320dp</dimen>
+    <dimen name="abc_dropdownitem_icon_width">32dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_left">8dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_right">8dip</dimen>
+    <dimen name="abc_panel_menu_list_width">296dp</dimen>
+    <dimen name="abc_search_view_preferred_width">320dip</dimen>
+    <dimen name="abc_search_view_text_min_width">160dip</dimen>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="actionbar_tab_padding">0dip</dimen>
+    <dimen name="alarm_label_size">12.0sp</dimen>
+    <dimen name="alert_dialog_title_height">64.0dip</dimen>
+    <dimen name="ampm_text_size">20.0dip</dimen>
+    <dimen name="body_font_days">13.0sp</dimen>
+    <dimen name="body_font_size">18.0sp</dimen>
+    <dimen name="button_footer_height">88dip</dimen>
+    <dimen name="collapse_expand_height">48dp</dimen>
+    <dimen name="date_text_size">15.0sp</dimen>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <item name="dialog_fixed_height_major" type="dimen">80%</item>
+    <item name="dialog_fixed_height_minor" type="dimen">100%</item>
+    <item name="dialog_fixed_width_major" type="dimen">320dp</item>
+    <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="glowpadview_glow_radius">75.0dip</dimen>
+    <dimen name="glowpadview_inner_radius">15.0dip</dimen>
+    <dimen name="glowpadview_margin_bottom">-64.0dip</dimen>
+    <dimen name="glowpadview_outerring_diameter">270.0dip</dimen>
+    <dimen name="glowpadview_snap_margin">40.0dip</dimen>
+    <dimen name="glowpadview_target_placement_radius">135.0dip</dimen>
+    <dimen name="label_font_size">14.0sp</dimen>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/undoLibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="marginBottom">16dp</dimen>
+    <dimen name="marginLeft">8dp</dimen>
+    <dimen name="marginRight">8dp</dimen>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="min_lock">20.0dip</dimen>
+    <dimen name="min_swipe">10.0dip</dimen>
+    <dimen name="min_vert">10.0dip</dimen>
+    <dimen name="next_alarm_text_size">15.0sp</dimen>
+    <dimen name="notification_large_icon_height">64.0dip</dimen>
+    <dimen name="notification_large_icon_heightn">52.0dip</dimen>
+    <dimen name="notification_large_icon_width">64.0dip</dimen>
+    <dimen name="notification_large_icon_widthn">52.0dip</dimen>
+    <dimen name="notification_subtext_size">12.0dip</dimen>
+    <dimen name="notification_text_size">14.0dip</dimen>
+    <dimen name="notification_title_text_size">16.5dip</dimen>
+    <dimen name="small_font_size">48.0sp</dimen>
+    <dimen name="time_margin_right">8.0dip</dimen>
+    <dimen name="time_text_size">120.0dip</dimen>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <item name="action_bar_activity_content" type="id"/>
+    <item name="action_menu_divider" type="id"/>
+    <item name="action_menu_presenter" type="id"/>
+    <item name="home" type="id"/>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/ids.xml -->
+    <eat-comment />
+
+    <item name="mbButton" type="id"/>
+    <item name="mbContainer" type="id"/>
+    <item name="mbMessage" type="id"/>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/numberPickerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <item name="np__decrement" type="id"/>
+    <item name="np__increment" type="id"/>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <item name="progress_circular" type="id"/>
+    <item name="progress_horizontal" type="id"/>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/showcase_library/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <item name="showcase_button" type="id"/>
+    <item name="showcase_sub_text" type="id"/>
+    <item name="showcase_title_text" type="id"/>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <integer name="abc_max_action_buttons">2</integer>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="_100">100</string>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="alarm">Alarm</string>
+    <string name="alarm_deleted">Alarm Deleted</string>
+    <string name="alarm_in_silent_mode">Alarm in silent mode</string>
+    <string name="alarm_off">OFF</string>
+    <string name="alarm_on">ON</string>
+    <string name="alarm_repeat">Repeat</string>
+    <string name="alarm_settings">ALARM SETTINGS</string>
+    <string name="alarm_tab_help_text1">Click on the marked region to view and edit the properties of alarm.</string>
+    <string name="alarm_tab_help_text2">To edit click on the property you want to edit. Example: To change battery level of alarm click on the battery level.</string>
+    <string name="alarm_tab_help_text3">Long press to start the selection and delete mode.</string>
+    <string name="alarm_vibrate">Vibrate</string>
+    <string name="alarm_volume">Alarm Volume</string>
+    <string name="alert_with_notification_instead_of_full_alarm">Alert with notification instead of full alarm</string>
+    <string name="app_name">Battery Caster</string>
+    <string name="application_settings">APPLICATION SETTINGS</string>
+    <string name="auto">Auto</string>
+    <string name="battery">Battery</string>
+    <string name="battery_info_health_dead">Dead</string>
+    <string name="battery_info_health_good">Good</string>
+    <string name="battery_info_health_over_voltage">Over voltage</string>
+    <string name="battery_info_health_overheat">Overheat</string>
+    <string name="battery_info_health_unspecified_failure">Unknown error</string>
+    <string name="battery_info_status_charging">Charging</string>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/static.xml -->
+    <eat-comment />
+
+    <string name="battery_info_status_charging_ac">(AC)</string>
+    <string name="battery_info_status_charging_usb">(USB)</string>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="battery_info_status_discharging">Discharging</string>
+    <string name="battery_info_status_full">Full</string>
+    <string name="battery_info_status_not_charging">Not charging</string>
+    <string name="battery_usage">Battery Usage</string>
+    <string name="caster">Caster</string>
+    <string name="change_log">Change Log</string>
+    <string name="changelog_version_format">Version <ns1:g id="version_name">%s</ns1:g></string>
+    <string name="collapse_alarm">Collapse alarm</string>
+    <string name="day_concat">", "</string>
+    <string name="default_label">Alarm</string>
+    <string name="delete">Delete</string>
+    <string name="delete_alarm">Delete alarm</string>
+    <string name="delta">δ</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="enter_label">Enter Label</string>
+    <string name="err_cannot_acquire">Cannot acquire camera resources!</string>
+    <string name="err_cannot_toggle">Cannot toggle camera LED!</string>
+    <string name="every_day">Every day</string>
+    <string name="expand_alarm">Expand alarm</string>
+    <string name="feedback">FEEDBACK</string>
+    <string name="foreground_service_started">Service is in the foreground</string>
+    <string name="fri">fri</string>
+    <string name="graph">Graph</string>
+    <string name="hack_for_devices_which_show_percent_in_10_increment">Hack for devices which show percent in 10% increment</string>
+    <string name="health">Health</string>
+    <string name="help">HELP</string>
+    <string name="history">History</string>
+    <string name="if_you_don_apos_t_like_something_in_our_app_tell_us_and_we_will_try_our_best_to_satisfy_you_">Found a bug? Tell us and we will fix it.</string>
+    <string name="info">Info</string>
+    <string name="info_tab_help_text">Info tab provides with the information related to battery like level, temperature and the estimate of battery span. Info tab also include a history graph to help you figure out the battery draining hours.</string>
+    <string name="initialising_for_first_use">Initialising for first use</string>
+    <string name="it_will_encourage_us_to_build_better_applications_">It will encourage us to build better applications.</string>
+    <string name="label">Label</string>
+    <string name="label_">"Label: "</string>
+    <string name="label_description">Label</string>
+    <string name="learn_about_features_of_battery_caster">Learn about features of Battery Caster</string>
+    <string name="letsstart">We are glad you\'ve decided to try Battery Caster. We hope you will love all the features the application provides. If you forget anything check this quick start guide again. For any further assistance feel free to contact us through the settings menu.</string>
+    <string name="menu_settings">Settings</string>
+    <string name="mon">mon</string>
+    <string name="mswitch">Switch</string>
+    <string name="mymailid">saphion.developers@gmail.com</string>
+    <string name="never">Never</string>
+    <string name="no_alarms">No Alarms</string>
+    <string name="no_upcoming_alarms">NO UPCOMING ALARMS</string>
+    <string name="noti_tab_help_text">To toggle visibility of icon in notification bar use the marked switch in notification settings.</string>
+    <string name="notification">Notification</string>
+    <string name="notification_priority">Notification Priority</string>
+    <string name="notify_toggle_on">Flashlight LED turned on</string>
+    <string name="notify_toggle_on_ext">Tap to turn off.</string>
+    <string name="off">OFF</string>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/showcase_library/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="ok">OK</string>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="on">ON</string>
+    <string name="one_percent_hack">One Percent Hack</string>
+    <string name="play_alarm_even_when_the_phone_is_in_silent_mode">Play alarm even when the phone is in silent mode</string>
+    <string name="power">Power</string>
+    <string name="power_profile_settings">POWER PROFILE SETTINGS</string>
+    <string name="power_profiles">Power Profiles</string>
+    <string name="power_tab_help_text1">To edit power profile click on the selected region.</string>
+    <string name="power_tab_help_text2">To select any power profile click on the selected region of particular profile.</string>
+    <string name="power_tab_help_text3">Long press to start the selection and delete mode.</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="quick_start_guide">Quick Start Guide</string>
+    <string name="rate_us">Rate us</string>
+    <string name="report_a_bug">Report a bug</string>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/undoLibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="retry">Retry</string>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="ringtone_description">Ringtone</string>
+    <string name="sat">sat</string>
+    <string name="show_battery_graph">Show Battery Graph</string>
+    <string name="show_notification">Show Notification</string>
+    <string name="show_notification_before_switching_profile">Show notification before switching profile</string>
+    <string name="show_popup">Show Popup</string>
+    <string name="show_popup_before_switching_profile">Show popup before switching profile</string>
+    <string name="silence_after">Silence After</string>
+    <string name="silent_alarm_summary">Silent</string>
+    <string name="spinner_prompt">Select Font</string>
+    <string name="start_using_battery_caster">Start Using Battery Caster</string>
+    <string name="stats">Stats</string>
+    <string name="suggest_a_feature_provide_feedback">Provide feedback</string>
+    <string name="sun">sun</string>
+    <string name="tab_help_text">There are 3 tabs, each one with different features. Swipe across them to explore them.</string>
+    <string name="temperature">Temperature</string>
+    <string name="temperature_unit">Temperature Unit</string>
+    <string name="thank_you_">Thank you!</string>
+    <string name="thu">thu</string>
+    <string name="todo">TODO</string>
+    <string name="tue">tue</string>
+    <string name="undo">UNDO</string>
+    <string name="using_celsius_metric_unit_">Using Celsius(Metric)</string>
+    <string name="using_fahrenheit_metric_unit_">Using Fahrenheit(Imperial)</string>
+    <string name="wed">wed</string>
+    <string name="welcometext">Welcome to Battery Caster - the most intuitive and powerful tool for your battery. Please read this quick start guide to understand the features this application provides.</string>
+    <string name="widgets_tab_help_text">Add amazing widgets to your home screen.</string>
+    <string name="write_to_us_any_feature_you_would_like_us_to_include_or_provide_feedback_">Any suggestions on how we can improve?</string>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="@style/Theme.Base.AppCompat">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+
+        <!-- <item name="switchStyle">@style/Widget.Holo.CompoundButton.Switch</item> -->
+        <!-- <item name="switchPreferenceStyle">@style/Preference.SwitchPreference</item> -->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="switchStyle">@style/Widget.Material.CompoundButton.Switch</item>
+    </style>
+
+    <style name="DeskClock" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/blackish</item>
+        <item name="actionBarTabStyle">@style/DeskClockTabStyle</item>
+        <item name="actionBarStyle">@style/DeskClockBarStyle</item>
+        <item name="actionBarTabBarStyle">@style/DeskClockTabBarStyle</item>
+        <item name="selectableItemBackground">@drawable/item_background</item>
+        <!-- <item name="switchStyle">@style/Widget.Holo.CompoundButton.Switch</item> -->
+        <!-- <item name="switchPreferenceStyle">@style/Preference.SwitchPreference</item> -->
+        <item name="numberPickerStyle">@style/NPWidget.Holo.NumberPicker</item>
+        <item name="switchStyle">@style/Widget.Material.CompoundButton.Switch</item>
+    </style>
+
+    <style name="DeskClockBarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/header_bg_bar</item>
+        <item name="backgroundStacked">@null</item>
+        <item name="backgroundSplit">@null</item>
+        <item name="displayOptions"/>
+    </style>
+
+    <style name="DeskClockTabBarStyle" parent="@style/Widget.AppCompat.ActionBar.TabBar">
+        <item name="android:background">@drawable/header_bg</item>
+        <item name="showDividers">middle</item>
+        <item name="android:divider">?android:attr/dividerVertical</item>
+        <item name="dividerPadding">12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DeskClockTabStyle" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:paddingLeft">@dimen/actionbar_tab_padding</item>
+        <item name="android:paddingRight">@dimen/actionbar_tab_padding</item>
+        <item name="android:background">@drawable/item_background</item>
+        <item name="android:gravity">center</item>
+        <item name="background">@drawable/item_background</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="HoloButton.Borderless" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/item_background</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:padding">4dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+    </style>
+
+    <style name="MessageBar" />
+
+    <style name="MessageBar.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:background">@drawable/mb__item_background_holo_dark</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="MessageBar.Container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/mb__messagebar_background</item>
+        <item name="android:clickable">true</item>
+        <item name="showDividers">middle</item>
+        <item name="android:divider">@drawable/mb__messagebar_divider</item>
+        <item name="dividerPadding">10dp</item>
+    </style>
+
+    <style name="MessageBar.Message">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/numberPickerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="NPWidget">
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+    </style>
+
+    <style name="NPWidget.Holo.Light.NumberPicker" parent="NPWidget.Holo.NumberPicker">
+        <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_light</item>
+    </style>
+
+    <style name="NPWidget.Holo.NumberPicker" parent="NPWidget.NumberPicker">
+        <item name="solidColor">@android:color/transparent</item>
+        <item name="selectionDivider">@drawable/np_numberpicker_selection_divider</item>
+        <item name="selectionDividerHeight">2dip</item>
+        <item name="internalLayout">@layout/number_picker_with_selector_wheel</item>
+        <item name="internalMinWidth">64dip</item>
+        <item name="internalMaxHeight">180dip</item>
+        <item name="virtualButtonPressedDrawable">@drawable/item_background_holo_dark</item>
+    </style>
+
+    <style name="NPWidget.NumberPicker">
+        <item name="android:orientation">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">50dip</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/showcase_library/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="ShowcaseButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/cling_button_bg</item>
+    </style>
+
+    <style name="ShowcaseText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <style name="ShowcaseTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#49C0EC</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+
+    <style name="ShowcaseView">
+        <item name="titleTextColor">#33B5E5</item>
+        <item name="detailTextColor">#FFFFFF</item>
+        <item name="backgroundColor">#3333B5E5</item>
+    </style>
+
+    <style name="ShowcaseView.Light">
+        <item name="titleTextColor">#33B5E5</item>
+        <item name="detailTextColor">#444</item>
+        <item name="backgroundColor">#3333B5E5</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Base.SearchResult" parent="">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Base.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Base.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large" parent="android:TextAppearance.Widget">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small" parent="android:TextAppearance.Widget">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Light.Base.SearchResult" parent="TextAppearance.AppCompat.Base.SearchResult">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Light.Base.SearchResult.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Light.Base.SearchResult.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Large" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large" />
+
+    <style name="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Small" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small" />
+
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Subtitle" parent="TextAppearance.AppCompat.Light.Base.SearchResult.Subtitle" />
+
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Title" parent="TextAppearance.AppCompat.Light.Base.SearchResult.Title" />
+
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" parent="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Large" />
+
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small" parent="TextAppearance.AppCompat.Light.Base.Widget.PopupMenu.Small" />
+
+    <style name="TextAppearance.AppCompat.SearchResult.Subtitle" parent="TextAppearance.AppCompat.Base.SearchResult.Subtitle" />
+
+    <style name="TextAppearance.AppCompat.SearchResult.Title" parent="TextAppearance.AppCompat.Base.SearchResult.Title" />
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Menu" />
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle" />
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle.Inverse" />
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Title" />
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionBar.Title.Inverse" />
+
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle" />
+
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle.Inverse" />
+
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Title" />
+
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse" parent="TextAppearance.AppCompat.Widget.Base.ActionMode.Title.Inverse" />
+
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Menu" parent="android:TextAppearance.Small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle" parent="android:TextAppearance.Small">
+        <item name="android:textSize">@dimen/abc_action_bar_subtitle_text_size</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Subtitle.Inverse" parent="android:TextAppearance.Small.Inverse">
+        <item name="android:textSize">@dimen/abc_action_bar_subtitle_text_size</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Title" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">@dimen/abc_action_bar_title_text_size</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionBar.Title.Inverse" parent="android:TextAppearance.Medium.Inverse">
+        <item name="android:textSize">@dimen/abc_action_bar_title_text_size</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle" parent="android:TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Subtitle.Inverse" parent="android:TextAppearance.Small.Inverse">
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Title" parent="android:TextAppearance.Medium" />
+
+    <style name="TextAppearance.AppCompat.Widget.Base.ActionMode.Title.Inverse" parent="android:TextAppearance.Medium.Inverse" />
+
+    <style name="TextAppearance.AppCompat.Widget.Base.DropDownItem" parent="android:TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.DropDownItem" parent="TextAppearance.AppCompat.Widget.Base.DropDownItem" />
+
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large" />
+
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="TextAppearance.StatusBar" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent" parent="@style/TextAppearance.StatusBar">
+        <item name="android:textSize">@dimen/notification_text_size</item>
+        <item name="android:textColor">#ff999999</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Line2" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Time" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+        <item name="android:textColor">#ff999999</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="TextAppearance.Widget.AppCompat.Base.ExpandedMenu.Item" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+    </style>
+
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="TextAppearance.Widget.AppCompat.Base.ExpandedMenu.Item" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="Theme" parent="Theme.AppCompat" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="Theme.AppCompat" parent="Theme.Base.AppCompat">
+        <item name="isLightTheme">false</item>
+
+        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
+        <item name="searchResultListItemHeight">58dip</item>
+
+        <!-- Popup Menu styles -->
+        <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
+
+        <!-- SearchView attributes -->
+        <item name="searchDropdownBackground">@drawable/abc_search_dropdown_dark</item>
+        <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_dark</item>
+        <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_dark</item>
+        <item name="searchViewCloseIcon">@drawable/abc_ic_clear</item>
+        <item name="searchViewSearchIcon">@drawable/abc_ic_search</item>
+        <item name="searchViewGoIcon">@drawable/abc_ic_go</item>
+        <item name="searchViewVoiceIcon">@drawable/abc_ic_voice_search</item>
+        <item name="searchViewEditQuery">@drawable/abc_ic_commit_search_api_holo_dark</item>
+        <item name="searchViewEditQueryBackground">?attr/selectableItemBackground</item>
+        <item name="searchViewAutoCompleteTextView">            @style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item name="textColorSearchUrl">@color/abc_search_url_text_holo</item>
+        <item name="textAppearanceSearchResultTitle">            @style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_dark</item>
+
+        <!-- ShareActionProvider attributes -->
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
+    </style>
+
+    <style name="Theme.AppCompat.Base.CompactMenu" parent="">
+        <item name="android:itemTextAppearance">            @style/TextAppearance.Widget.AppCompat.ExpandedMenu.Item</item>
+        <item name="android:listViewStyle">@style/Widget.AppCompat.ListView.Menu</item>
+    </style>
+
+    <style name="Theme.AppCompat.Base.CompactMenu.Dialog" parent="">
+        <item name="android:itemTextAppearance">            @style/TextAppearance.AppCompat.Base.CompactMenu.Dialog</item>
+        <item name="android:listViewStyle">@android:style/Widget.ListView.Menu</item>
+    </style>
+
+    <style name="Theme.AppCompat.CompactMenu" parent="Theme.AppCompat.Base.CompactMenu" />
+
+    <style name="Theme.AppCompat.CompactMenu.Dialog" parent="Theme.AppCompat.Base.CompactMenu.Dialog" />
+
+    <style name="Theme.AppCompat.DialogWhenLarge" parent="Theme.Base.AppCompat.DialogWhenLarge" />
+
+    <style name="Theme.AppCompat.Light" parent="Theme.Base.AppCompat.Light">
+        <item name="isLightTheme">true</item>
+
+        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.Light.DropDownItem.Spinner</item>
+        <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
+        <item name="searchResultListItemHeight">58dip</item>
+
+        <!-- Popup Menu styles -->
+        <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.Light.ListPopupWindow</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.Light.ListView.DropDown</item>
+
+        <!-- SearchView attributes -->
+        <item name="searchDropdownBackground">@drawable/abc_search_dropdown_light</item>
+        <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_light</item>
+        <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_light</item>
+        <item name="searchViewCloseIcon">@drawable/abc_ic_clear_holo_light</item>
+        <item name="searchViewSearchIcon">@drawable/abc_ic_search_api_holo_light</item>
+        <item name="searchViewGoIcon">@drawable/abc_ic_go_search_api_holo_light</item>
+        <item name="searchViewVoiceIcon">@drawable/abc_ic_voice_search_api_holo_light</item>
+        <item name="searchViewEditQuery">@drawable/abc_ic_commit_search_api_holo_light</item>
+        <item name="searchViewEditQueryBackground">?attr/selectableItemBackground</item>
+        <item name="searchViewAutoCompleteTextView">            @style/Widget.AppCompat.Light.AutoCompleteTextView</item>
+        <item name="textColorSearchUrl">@color/abc_search_url_text_holo</item>
+        <item name="textAppearanceSearchResultTitle">            @style/TextAppearance.AppCompat.Light.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.Light.SearchResult.Subtitle</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_light</item>
+
+        <!-- ShareActionProvider attributes -->
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.Light.ActivityChooserView</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.DarkActionBar" parent="Theme.Base.AppCompat.Light.DarkActionBar">
+        <item name="isLightTheme">true</item>
+
+        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        <item name="spinnerDropDownItemStyle">            @style/Widget.AppCompat.Light.DropDownItem.Spinner</item>
+        <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
+        <item name="searchResultListItemHeight">58dip</item>
+
+        <!-- Popup Menu styles -->
+        <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
+        <item name="textAppearanceLargePopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
+        <item name="textAppearanceSmallPopupMenu">            @style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
+        <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
+        <item name="dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
+
+        <!-- SearchView attributes -->
+        <item name="searchDropdownBackground">@drawable/abc_search_dropdown_dark</item>
+        <item name="searchViewTextField">@drawable/abc_textfield_searchview_holo_dark</item>
+        <item name="searchViewTextFieldRight">@drawable/abc_textfield_searchview_right_holo_dark</item>
+        <item name="searchViewCloseIcon">@drawable/abc_ic_clear</item>
+        <item name="searchViewSearchIcon">@drawable/abc_ic_search</item>
+        <item name="searchViewGoIcon">@drawable/abc_ic_go</item>
+        <item name="searchViewVoiceIcon">@drawable/abc_ic_voice_search</item>
+        <item name="searchViewEditQuery">@drawable/abc_ic_commit_search_api_holo_dark</item>
+        <item name="searchViewEditQueryBackground">?attr/selectableItemBackground</item>
+        <item name="searchViewAutoCompleteTextView">            @style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item name="textColorSearchUrl">@color/abc_search_url_text_holo</item>
+        <item name="textAppearanceSearchResultTitle">            @style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">            @style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_holo_dark</item>
+
+        <!-- ShareActionProvider attributes -->
+        <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light.DialogWhenLarge" />
+
+    <style name="Theme.Base" parent="android:Theme" />
+
+    <style name="Theme.Base.AppCompat" parent="Theme.Base">
+        <item name="windowActionBar">true</item>
+        <!-- Remove system title bars; we will add the action bar ourselves. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonBarStyle">@android:style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_holo_dark</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_holo_dark</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_holo_dark</item>
+        <item name="listPreferredItemHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemPaddingLeft">8dip</item>
+        <item name="listPreferredItemPaddingRight">8dip</item>
+        <item name="textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.ActionBar.TabText</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.ActionBar</item>
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">@dimen/abc_action_bar_default_height</item>
+        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarItemBackground">?attr/selectableItemBackground</item>
+        <item name="actionMenuTextAppearance">            @style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
+
+        <!-- Dropdown Spinner Attributes -->
+        <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+
+        <!-- Action Mode -->
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+
+        <!-- Panel attributes -->
+        <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+
+    <style name="Theme.Base.AppCompat.Dialog.FixedSize" parent="android:Theme.Dialog">
+        <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
+        <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
+        <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
+        <item name="windowActionBar">true</item>
+        <!-- Remove system title bars; we will add the action bar ourselves. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonBarStyle">@android:style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_holo_dark</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_holo_dark</item>
+        <item name="listPreferredItemHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemPaddingLeft">8dip</item>
+        <item name="listPreferredItemPaddingRight">8dip</item>
+        <item name="textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+
+        <!-- Action Mode -->
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+
+        <!-- Panel attributes -->
+        <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+
+    <style name="Theme.Base.AppCompat.Dialog.Light.FixedSize" parent="Theme.Base.AppCompat.Dialog.FixedSize" />
+
+    <style name="Theme.Base.AppCompat.DialogWhenLarge" parent="Theme.Base.AppCompat" />
+
+    <style name="Theme.Base.AppCompat.Light" parent="Theme.Base.Light">
+        <item name="windowActionBar">true</item>
+        <!-- Remove system title bars; we will add the action bar ourselves. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="buttonBarStyle">@android:style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@android:style/Widget.Button</item>
+        <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_holo_light</item>
+        <item name="dividerVertical">@drawable/abc_list_divider_holo_light</item>
+        <item name="dividerHorizontal">@drawable/abc_list_divider_holo_light</item>
+        <item name="listPreferredItemHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">48dp</item>
+        <item name="listPreferredItemHeightLarge">80dp</item>
+        <item name="listPreferredItemPaddingLeft">8dip</item>
+        <item name="listPreferredItemPaddingRight">8dip</item>
+        <item name="textAppearanceListItem">?android:attr/textAppearanceMedium</item>
+        <item name="textAppearanceListItemSmall">?android:attr/textAppearanceMedium</item>
+
+        <!-- Action Bar Styles -->
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
+        <item name="actionOverflowButtonStyle">            @style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.Light.ActionBar</item>
+        <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">@dimen/abc_action_bar_default_height</item>
+        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarItemBackground">?attr/selectableItemBackground</item>
+        <item name="actionMenuTextAppearance">            @style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
+
+        <!-- Action Mode -->
+        <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_light</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_light</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_light</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.Light.ActionButton.CloseMode</item>
+
+        <!-- Dropdown Spinner Attributes -->
+        <item name="actionDropDownStyle">            @style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
+
+        <!-- Panel attributes -->
+        <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
+        <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_light</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_light</item>
+    </style>
+
+    <style name="Theme.Base.AppCompat.Light.DarkActionBar" parent="Theme.Base.AppCompat.Light">
+        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_holo_dark</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse</item>
+        <item name="actionBarWidgetTheme">@style/Theme.AppCompat</item>
+        <item name="actionBarDivider">@drawable/abc_list_divider_holo_dark</item>
+        <item name="actionBarItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView.Inverse</item>
+        <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar.Inverse</item>
+        <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText.Inverse</item>
+        <item name="actionMenuTextColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
+
+        <!-- Action Mode -->
+        <item name="actionModeStyle">@style/Widget.AppCompat.Light.ActionMode.Inverse</item>
+        <item name="actionModeBackground">@drawable/abc_cab_background_top_holo_dark</item>
+        <item name="actionModeSplitBackground">@drawable/abc_cab_background_bottom_holo_dark</item>
+        <item name="actionModeCloseDrawable">@drawable/abc_ic_cab_done_holo_dark</item>
+        <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
+
+        <!-- Dropdown Spinner Attributes -->
+        <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+
+        <!-- Panel attributes -->
+        <item name="android:panelBackground">@drawable/abc_menu_hardkey_panel_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+
+    <style name="Theme.Base.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light" />
+
+    <style name="Theme.Base.Light" parent="android:Theme.Light" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="Theme.Transparent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowBackground">@drawable/trans3</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+
+    <style name="ToastBarStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/panel_undo_holo</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+    </style>
+
+    <style name="UndoBar" parent="UndoBarKitKat" />
+
+    <style name="UndoBarButton" parent="UndoBarButtonKitKat" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/undoLibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="UndoBarButtonClassic">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:background">@drawable/undobar_button</item>
+        <item name="android:drawableLeft">@drawable/ic_undobar_undo</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:text">"Undo"</item>
+    </style>
+
+    <style name="UndoBarButtonKitKat" parent="UndoBarButtonClassic">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/toast_frame_holo_button</item>
+        <item name="android:paddingRight">25dp</item>
+    </style>
+
+    <style name="UndoBarClassic">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:maxHeight">150dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/marginRight</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/undobar</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="UndoBarDivider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/undobar_divider</item>
+    </style>
+
+    <style name="UndoBarKitKat" parent="UndoBarClassic">
+        <item name="android:background">@drawable/toast_frame_holo</item>
+        <item name="android:padding">0.0dip</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="UndoBarMessage" parent="UndoBarMessageKitKat" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/undoLibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="UndoBarMessageClassic">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="UndoBarMessageKitKat" parent="UndoBarMessageClassic">
+        <item name="android:shadowColor">#bb000000</item>
+        <item name="android:shadowRadius">2.75</item>
+        <item name="android:fontFamily" ns1:ignore="NewApi">sans-serif-condensed</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="Widget" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="Widget.AppCompat.ActionBar" parent="Widget.AppCompat.Base.ActionBar" />
+
+    <style name="Widget.AppCompat.ActionBar.Solid" parent="Widget.AppCompat.Base.ActionBar.Solid" />
+
+    <style name="Widget.AppCompat.ActionBar.TabBar" parent="Widget.AppCompat.Base.ActionBar.TabBar" />
+
+    <style name="Widget.AppCompat.ActionBar.TabText" parent="Widget.AppCompat.Base.ActionBar.TabText" />
+
+    <style name="Widget.AppCompat.ActionBar.TabView" parent="Widget.AppCompat.Base.ActionBar.TabView" />
+
+    <style name="Widget.AppCompat.ActionButton" parent="Widget.AppCompat.Base.ActionButton" />
+
+    <style name="Widget.AppCompat.ActionButton.CloseMode" parent="Widget.AppCompat.Base.ActionButton.CloseMode" />
+
+    <style name="Widget.AppCompat.ActionButton.Overflow" parent="Widget.AppCompat.Base.ActionButton.Overflow" />
+
+    <style name="Widget.AppCompat.ActionMode" parent="Widget.AppCompat.Base.ActionMode" />
+
+    <style name="Widget.AppCompat.ActivityChooserView" parent="Widget.AppCompat.Base.ActivityChooserView" />
+
+    <style name="Widget.AppCompat.AutoCompleteTextView" parent="Widget.AppCompat.Base.AutoCompleteTextView" />
+
+    <style name="Widget.AppCompat.Base.ActionBar" parent="">
+        <item name="displayOptions">useLogo|showHome|showTitle</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="height">?attr/actionBarSize</item>
+        <item name="homeLayout">@layout/abc_action_bar_home</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle</item>
+        <item name="background">@drawable/abc_ab_transparent_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_transparent_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_transparent_dark_holo</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item name="progressBarStyle">@style/Widget.AppCompat.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.AppCompat.ProgressBar</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ActionBar.Solid" parent="Widget.AppCompat.Base.ActionBar">
+        <item name="background">@drawable/abc_ab_solid_dark_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_solid_dark_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_solid_dark_holo</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ActionBar.TabBar" parent="">
+        <item name="divider">?attr/actionBarDivider</item>
+        <item name="showDividers">middle</item>
+        <item name="dividerPadding">12dip</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ActionBar.TabText" parent="">
+        <item name="android:textAppearance">@null</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryDisableOnly</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ActionBar.TabView" parent="">
+        <item name="android:background">@drawable/abc_tab_indicator_ab_holo</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:minWidth">80dip</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ActionButton" parent="">
+        <item name="android:background">?attr/actionBarItemBackground</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:minWidth">@dimen/abc_action_button_min_width</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="textAllCaps">@bool/abc_config_actionMenuItemAllCaps</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ActionButton.CloseMode" parent="Widget.AppCompat.Base.ActionButton" />
+
+    <style name="Widget.AppCompat.Base.ActionButton.Overflow" parent="Widget.AppCompat.Base.ActionButton">
+        <item name="android:src">@drawable/abc_ic_menu_moreoverflow_normal_holo_dark</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ActionMode" parent="">
+        <item name="background">?attr/actionModeBackground</item>
+        <item name="backgroundSplit">?attr/actionModeSplitBackground</item>
+        <item name="height">?attr/actionBarSize</item>
+        <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ActivityChooserView" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/abc_ab_share_pack_holo_dark</item>
+        <item name="divider">?attr/dividerVertical</item>
+        <item name="showDividers">middle</item>
+        <item name="dividerPadding">6dip</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.AutoCompleteTextView" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_dark</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.DropDownItem.Spinner" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.DropDownItem</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ListPopupWindow" parent="">
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ListView.DropDown" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/abc_list_selector_holo_dark</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ListView.Menu" parent="android:Widget.ListView.Menu">
+        <item name="android:listSelector">?attr/listChoiceBackgroundIndicator</item>
+        <item name="android:divider">?attr/dividerHorizontal</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.PopupMenu" parent="@style/Widget.AppCompat.Base.ListPopupWindow" />
+
+    <style name="Widget.AppCompat.Base.ProgressBar" parent="android:Widget.ProgressBar">
+        <item name="android:minWidth">@dimen/abc_action_bar_progress_bar_size</item>
+        <item name="android:maxWidth">@dimen/abc_action_bar_progress_bar_size</item>
+        <item name="android:minHeight">@dimen/abc_action_bar_progress_bar_size</item>
+        <item name="android:maxHeight">@dimen/abc_action_bar_progress_bar_size</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal" />
+
+    <style name="Widget.AppCompat.Base.Spinner" parent="">
+        <item name="spinnerMode">dropdown</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_dark</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/abc_spinner_ab_holo_dark</item>
+    </style>
+
+    <style name="Widget.AppCompat.DropDownItem.Spinner" parent="Widget.AppCompat.Base.DropDownItem.Spinner" />
+
+    <style name="Widget.AppCompat.Light.ActionBar" parent="Widget.AppCompat.Light.Base.ActionBar" />
+
+    <style name="Widget.AppCompat.Light.ActionBar.Solid" parent="Widget.AppCompat.Light.Base.ActionBar.Solid" />
+
+    <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.Solid.Inverse" />
+
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar" parent="Widget.AppCompat.Light.Base.ActionBar.TabBar" />
+
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabBar.Inverse" />
+
+    <style name="Widget.AppCompat.Light.ActionBar.TabText" parent="Widget.AppCompat.Light.Base.ActionBar.TabText" />
+
+    <style name="Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabText.Inverse" />
+
+    <style name="Widget.AppCompat.Light.ActionBar.TabView" parent="Widget.AppCompat.Light.Base.ActionBar.TabView" />
+
+    <style name="Widget.AppCompat.Light.ActionBar.TabView.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabView.Inverse" />
+
+    <style name="Widget.AppCompat.Light.ActionButton" parent="Widget.AppCompat.Light.Base.ActionButton" />
+
+    <style name="Widget.AppCompat.Light.ActionButton.CloseMode" parent="Widget.AppCompat.Light.Base.ActionButton.CloseMode" />
+
+    <style name="Widget.AppCompat.Light.ActionButton.Overflow" parent="Widget.AppCompat.Light.Base.ActionButton.Overflow" />
+
+    <style name="Widget.AppCompat.Light.ActionMode.Inverse" parent="Widget.AppCompat.Light.Base.ActionMode.Inverse" />
+
+    <style name="Widget.AppCompat.Light.ActivityChooserView" parent="Widget.AppCompat.Light.Base.ActivityChooserView" />
+
+    <style name="Widget.AppCompat.Light.AutoCompleteTextView" parent="Widget.AppCompat.Light.Base.AutoCompleteTextView" />
+
+    <style name="Widget.AppCompat.Light.Base.ActionBar" parent="Widget.AppCompat.Base.ActionBar">
+        <item name="background">@drawable/abc_ab_transparent_light_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_transparent_light_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_transparent_light_holo</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item name="progressBarStyle">@style/Widget.AppCompat.ProgressBar.Horizontal</item>
+        <item name="indeterminateProgressStyle">@style/Widget.AppCompat.ProgressBar</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.Base.ActionBar.Solid" parent="Widget.AppCompat.Light.Base.ActionBar">
+        <item name="background">@drawable/abc_ab_solid_light_holo</item>
+        <item name="backgroundStacked">@drawable/abc_ab_stacked_solid_light_holo</item>
+        <item name="backgroundSplit">@drawable/abc_ab_bottom_solid_light_holo</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.Base.ActionBar.Solid.Inverse" parent="Widget.AppCompat.Base.ActionBar.Solid">
+        <item name="titleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse</item>
+        <item name="subtitleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabBar" parent="Widget.AppCompat.Base.ActionBar.TabBar" />
+
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabBar.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabBar" />
+
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabText" parent="Widget.AppCompat.Base.ActionBar.TabText" />
+
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabText.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabText">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabView" parent="Widget.AppCompat.Base.ActionBar.TabView" />
+
+    <style name="Widget.AppCompat.Light.Base.ActionBar.TabView.Inverse" parent="Widget.AppCompat.Light.Base.ActionBar.TabView" />
+
+    <style name="Widget.AppCompat.Light.Base.ActionButton" parent="Widget.AppCompat.Base.ActionButton" />
+
+    <style name="Widget.AppCompat.Light.Base.ActionButton.CloseMode" parent="Widget.AppCompat.Light.Base.ActionButton" />
+
+    <style name="Widget.AppCompat.Light.Base.ActionButton.Overflow" parent="Widget.AppCompat.Light.Base.ActionButton">
+        <item name="android:src">@drawable/abc_ic_menu_moreoverflow_normal_holo_light</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.Base.ActionMode.Inverse" parent="Widget.AppCompat.Base.ActionMode">
+        <item name="titleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse</item>
+        <item name="subtitleTextStyle">            @style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.Base.ActivityChooserView" parent="Widget.AppCompat.Base.ActivityChooserView">
+        <item name="android:background">@drawable/abc_ab_share_pack_holo_light</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.Base.AutoCompleteTextView" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:textColor">?attr/actionMenuTextColor</item>
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_light</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.Base.DropDownItem.Spinner" parent="Widget.AppCompat.Base.DropDownItem.Spinner" />
+
+    <style name="Widget.AppCompat.Light.Base.ListPopupWindow" parent="">
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_light</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.Base.ListView.DropDown" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/abc_list_selector_holo_light</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.Base.PopupMenu" parent="@style/Widget.AppCompat.Light.Base.ListPopupWindow" />
+
+    <style name="Widget.AppCompat.Light.Base.Spinner" parent="Widget.AppCompat.Base.Spinner">
+        <item name="android:dropDownSelector">@drawable/abc_list_selector_holo_light</item>
+        <item name="android:popupBackground">@drawable/abc_menu_dropdown_panel_holo_light</item>
+        <item name="android:background">@drawable/abc_spinner_ab_holo_light</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.DropDownItem.Spinner" parent="Widget.AppCompat.Light.Base.DropDownItem.Spinner" />
+
+    <style name="Widget.AppCompat.Light.ListPopupWindow" parent="Widget.AppCompat.Light.Base.ListPopupWindow" />
+
+    <style name="Widget.AppCompat.Light.ListView.DropDown" parent="Widget.AppCompat.Light.Base.ListView.DropDown" />
+
+    <style name="Widget.AppCompat.Light.PopupMenu" parent="Widget.AppCompat.Light.Base.PopupMenu" />
+
+    <style name="Widget.AppCompat.Light.Spinner.DropDown.ActionBar" parent="Widget.AppCompat.Light.Base.Spinner" />
+
+    <style name="Widget.AppCompat.ListPopupWindow" parent="Widget.AppCompat.Base.ListPopupWindow" />
+
+    <style name="Widget.AppCompat.ListView.DropDown" parent="Widget.AppCompat.Base.ListView.DropDown" />
+
+    <style name="Widget.AppCompat.ListView.Menu" parent="Widget.AppCompat.Base.ListView.Menu" />
+
+    <style name="Widget.AppCompat.PopupMenu" parent="Widget.AppCompat.Base.PopupMenu" />
+
+    <style name="Widget.AppCompat.ProgressBar" parent="Widget.AppCompat.Base.ProgressBar" />
+
+    <style name="Widget.AppCompat.ProgressBar.Horizontal" parent="Widget.AppCompat.Base.ProgressBar.Horizontal" />
+
+    <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Widget.AppCompat.Base.Spinner" />
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/library/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="Widget.Material.CompoundButton.Switch" parent="android:Widget.CompoundButton">
+        <item name="track">@drawable/switch_track_mtrl_alpha</item>
+        <item name="thumb">@drawable/switch_inner</item>
+        <item name="switchMinWidth">48dp</item>
+        <item name="switchPadding">16dp</item>
+        <item name="thumbWidth">28dp</item>
+        <item name="thumbAnimateOffset">4dp</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/build/intermediates/exploded-aar/BatteryCaster/viewPagerlibrary/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="alarm_label">
+        <item name="android:textSize">@dimen/alarm_label_size</item>
+    </style>
+
+    <style name="alarm_label_bold">
+        <item name="android:textSize">@dimen/alarm_label_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="alarm_label_not_caps" parent="@style/alarm_label" />
+
+    <style name="body">
+        <item name="android:textSize">@dimen/body_font_size</item>
+    </style>
+
+    <style name="body_bold">
+        <item name="android:textSize">@dimen/body_font_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="body_days" parent="@style/body">
+        <item name="android:textSize">@dimen/body_font_days</item>
+    </style>
+
+    <style name="body_not_caps" parent="@style/body" />
+
+    <style name="button">
+        <item name="android:textSize">24sp</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="label">
+        <item name="android:textSize">@dimen/label_font_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="small_bold">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="small_light">
+        <item name="android:textSize">@dimen/small_font_size</item>
+    </style>
+
+</resources>

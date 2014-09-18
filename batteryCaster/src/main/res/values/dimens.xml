@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="min_swipe">10.0dip</dimen>
+    <dimen name="min_vert">10.0dip</dimen>
+    <dimen name="min_lock">20.0dip</dimen>
+    <dimen name="time_text_size">120.0dip</dimen>
+    <dimen name="ampm_text_size">20.0dip</dimen>
+    <dimen name="date_text_size">15.0sp</dimen>
+    <dimen name="next_alarm_text_size">15.0sp</dimen>
+    <dimen name="time_margin_right">8.0dip</dimen>
+    <dimen name="alert_dialog_title_height">64.0dip</dimen>
+    <dimen name="small_font_size">48.0sp</dimen>
+    <dimen name="label_font_size">14.0sp</dimen>
+    <dimen name="body_font_size">18.0sp</dimen>
+    <dimen name="body_font_days">13.0sp</dimen>
+    <dimen name="alarm_label_size">12.0sp</dimen>
+    <dimen name="actionbar_tab_padding">0dip</dimen>
+    <dimen name="notification_large_icon_width">64.0dip</dimen>
+    <dimen name="notification_large_icon_height">64.0dip</dimen>
+    <dimen name="notification_large_icon_widthn">52.0dip</dimen>
+    <dimen name="notification_large_icon_heightn">52.0dip</dimen>
+    <dimen name="notification_text_size">14.0dip</dimen>
+    <dimen name="notification_title_text_size">16.5dip</dimen>
+    <dimen name="notification_subtext_size">12.0dip</dimen>
+    <dimen name="glowpadview_outerring_diameter">270.0dip</dimen>
+    <dimen name="glowpadview_target_placement_radius">135.0dip</dimen>
+    <dimen name="glowpadview_glow_radius">75.0dip</dimen>
+    <dimen name="glowpadview_snap_margin">40.0dip</dimen>
+    <dimen name="glowpadview_inner_radius">15.0dip</dimen>
+    <dimen name="glowpadview_margin_bottom">-64.0dip</dimen>
+
+    <!-- Bottom margin for the expand area -->
+    <dimen name="collapse_expand_height">48dp</dimen>
+    
+    <!-- Height of the button footers. 56 height and 16 on top and bottom. -->
+    <dimen name="button_footer_height">88dip</dimen>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:holo="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="64.0dip"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="40.0dip"
+    android:layout_marginLeft="8.0dip"
+    android:layout_marginRight="8.0dip"
+    android:background="@drawable/panel_undo_holo"
+    tools:ignore="Overdraw" >
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:paddingLeft="16.0dip"
+        android:singleLine="true"
+        android:text="@string/alarm_deleted"
+        android:textColor="@android:color/white"
+        android:textSize="16.0sp" />
+
+    <LinearLayout
+        android:id="@+id/action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/item_background"
+        android:clickable="true" >
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="1.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginRight="12.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="#ffaaaaaa"
+            android:contentDescription="@string/todo" />
+
+        <ImageView
+            android:id="@+id/action_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4.0dip"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_menu_revert_holo_dark" />
+
+        <TextView
+            android:id="@+id/action_text"
+            style="@style/body"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="4.0dip"
+            android:gravity="center_vertical"
+            android:paddingRight="16.0dip"
+            android:text="@string/undo"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+</LinearLayout>

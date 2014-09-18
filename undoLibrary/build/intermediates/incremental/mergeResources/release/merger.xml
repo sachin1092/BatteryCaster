@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger
+    version="2"
+    xmlns:ns1="http://schemas.android.com/tools" >
+
+    <dataSet config="21.0.0-rc1" >
+        <source path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res" >
+            <file
+                name="toast_frame_holo_button"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable/toast_frame_holo_button.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="undobar_button"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable/undobar_button.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="toast_frame_holo"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-hdpi/toast_frame_holo.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="toast_frame_holo_button_pressed"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-hdpi/toast_frame_holo_button_pressed.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="toast_frame_holo"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-mdpi/toast_frame_holo.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="toast_frame_holo_button_pressed"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-mdpi/toast_frame_holo_button_pressed.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_retry"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-xhdpi/ic_retry.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_undobar_undo"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-xhdpi/ic_undobar_undo.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="toast_frame_holo"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-xhdpi/toast_frame_holo.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="toast_frame_holo_button_pressed"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-xhdpi/toast_frame_holo_button_pressed.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="undobar"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-xhdpi/undobar.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="undobar_background"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-xhdpi/undobar_background.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="undobar_button_focused"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-xhdpi/undobar_button_focused.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="undobar_button_pressed"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-xhdpi/undobar_button_pressed.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="undobar_divider"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-xhdpi/undobar_divider.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="toast_frame_holo"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-xxhdpi/toast_frame_holo.9.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="toast_frame_holo_button_pressed"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/drawable-xxhdpi/toast_frame_holo_button_pressed.9.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="undobar"
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/layout/undobar.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="marginRight" >8dp
+                </dimen>
+                <dimen name="marginBottom" >16dp
+                </dimen>
+                <dimen name="marginLeft" >8dp
+                </dimen>
+            </file>
+            <file
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/values/string.xml"
+                qualifiers="" >
+                <string name="undo" >Undo
+                </string>
+                <string name="retry" >Retry
+                </string>
+            </file>
+            <file
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="UndoBarButton"
+                    parent="UndoBarButtonClassic" />
+
+                <style name="UndoBarButtonClassic" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+match_parent
+                    </item>
+                    <item name="android:paddingLeft">
+16dp
+                    </item>
+                    <item name="android:paddingRight">
+16dp
+                    </item>
+                    <item name="android:background">
+@drawable/undobar_button
+                    </item>
+                    <item name="android:drawableLeft">
+@drawable/ic_undobar_undo
+                    </item>
+                    <item name="android:drawablePadding">
+12dp
+                    </item>
+                    <item name="android:textAppearance">
+?android:textAppearanceMedium
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:textColor">
+#fff
+                    </item>
+                    <item name="android:text">
+"Undo"
+                    </item>
+                </style>
+
+                <style
+                    name="UndoBarMessage"
+                    parent="UndoBarMessageClassic" />
+
+                <style
+                    name="UndoBarMessageKitKat"
+                    parent="UndoBarMessageClassic" >
+                    <item name="android:shadowColor">
+#bb000000
+                    </item>
+                    <item name="android:shadowRadius">
+2.75
+                    </item>
+                    <item
+                        name="android:fontFamily"
+                        ns1:ignore="NewApi">
+sans-serif-condensed
+                    </item>
+                    <item name="android:freezesText">
+true
+                    </item>
+                    <item name="android:layout_weight">
+1.0
+                    </item>
+                    <item name="android:layout_gravity">
+start|center
+                    </item>
+                    <item name="android:layout_marginLeft">
+25dp
+                    </item>
+                </style>
+
+                <style name="UndoBarMessageClassic" >
+                    <item name="android:layout_width">
+0dp
+                    </item>
+                    <item name="android:layout_weight">
+1
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_marginLeft">
+16dp
+                    </item>
+                    <item name="android:layout_gravity">
+center_vertical
+                    </item>
+                    <item name="android:layout_marginRight">
+16dp
+                    </item>
+                    <item name="android:textAppearance">
+?android:textAppearanceMedium
+                    </item>
+                    <item name="android:textColor">
+#fff
+                    </item>
+                </style>
+
+                <style name="UndoBarDivider" >
+                    <item name="android:layout_width">
+1dp
+                    </item>
+                    <item name="android:layout_height">
+fill_parent
+                    </item>
+                    <item name="android:layout_marginBottom">
+8dp
+                    </item>
+                    <item name="android:layout_marginTop">
+8dp
+                    </item>
+                    <item name="android:background">
+@drawable/undobar_divider
+                    </item>
+                </style>
+
+                <style
+                    name="UndoBarButtonKitKat"
+                    parent="UndoBarButtonClassic" >
+                    <item name="android:layout_gravity">
+center_vertical
+                    </item>
+                    <item name="android:background">
+@drawable/toast_frame_holo_button
+                    </item>
+                    <item name="android:paddingRight">
+25dp
+                    </item>
+                </style>
+
+                <style
+                    name="UndoBarKitKat"
+                    parent="UndoBarClassic" >
+                    <item name="android:background">
+@drawable/toast_frame_holo
+                    </item>
+                    <item name="android:padding">
+0.0dip
+                    </item>
+                </style>
+
+                <style
+                    name="UndoBar"
+                    parent="UndoBarClassic" />
+
+                <style name="UndoBarClassic" >
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:minHeight">
+48dp
+                    </item>
+                    <item name="android:maxHeight">
+150dp
+                    </item>
+                    <item name="android:layout_gravity">
+bottom
+                    </item>
+                    <item name="android:layout_marginLeft">
+@dimen/marginLeft
+                    </item>
+                    <item name="android:layout_marginRight">
+@dimen/marginRight
+                    </item>
+                    <item name="android:layout_marginBottom">
+@dimen/marginBottom
+                    </item>
+                    <item name="android:orientation">
+horizontal
+                    </item>
+                    <item name="android:background">
+@drawable/undobar
+                    </item>
+                    <item name="android:clickable">
+true
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/values-he/string.xml"
+                qualifiers="he" >
+                <string name="undo" >ביטול
+                </string>
+                <string name="retry" >נסה שנית
+                </string>
+            </file>
+            <file
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/values-hu/string.xml"
+                qualifiers="hu" >
+                <string name="undo" >Visszavonás
+                </string>
+                <string name="retry" >Újra
+                </string>
+            </file>
+            <file
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/values-it/string.xml"
+                qualifiers="it" >
+                <string name="retry" >Riprova
+                </string>
+                <string name="undo" >Annulla
+                </string>
+            </file>
+            <file
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/values-iw/string.xml"
+                qualifiers="iw" >
+                <string name="undo" >ביטול
+                </string>
+                <string name="retry" >נסה שנית
+                </string>
+            </file>
+            <file
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/values-ko/string.xml"
+                qualifiers="ko" >
+                <string name="retry" >재시도
+                </string>
+                <string name="undo" >실행취소
+                </string>
+            </file>
+            <file
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/values-v19/styles.xml"
+                qualifiers="v19" >
+
+                <style
+                    name="UndoBarMessage"
+                    parent="UndoBarMessageKitKat" />
+
+                <style
+                    name="UndoBarButton"
+                    parent="UndoBarButtonKitKat" />
+
+                <style
+                    name="UndoBar"
+                    parent="UndoBarKitKat" />
+            </file>
+            <file
+                path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/main/res/values-zh/string.xml"
+                qualifiers="zh" >
+                <string name="undo" >撤销
+                </string>
+                <string name="retry" >重试
+                </string>
+            </file>
+        </source>
+        <source path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/build/generated/res/rs/release" />
+        <source path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/mnt/Games/AndroidStudioProjects/BatteryCaster/undoLibrary/src/release/res" />
+    </dataSet>
+
+</merger>

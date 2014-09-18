@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlpreview"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" >
+
+        <ViewFlipper
+            android:id="@+id/vfpreview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <ImageView
+                android:id="@+id/PreviewimageView3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mydial2" />
+
+            <ImageView
+                android:id="@+id/PreviewimageViewSecond"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mydial2" />
+
+            <ImageView
+                android:id="@+id/PreviewimageViewThird"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mydial2" />
+
+            <ImageView
+                android:id="@+id/PreviewimageViewFourth"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mydial2" />
+
+            <ImageView
+                android:id="@+id/PreviewimageViewFifth"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mydial2" />
+        </ViewFlipper>
+
+        <Button
+            android:id="@+id/bwidgetfor"
+            android:layout_width="40dp"
+            android:layout_height="51dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/forward" />
+
+        <Button
+            android:id="@+id/bwidgetprev"
+            android:layout_width="40dp"
+            android:layout_height="51dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/previous" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical|left"
+                android:text="Text to Show"
+                android:textColor="#ff1e8bd4"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#a0ffffff" />
+
+            <TextView
+                android:id="@+id/spbatterytext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/apptheme_spinner_background_holo_dark"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="12dp"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="#a08e8f90" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical|left"
+                    android:text="Battery Font"
+                    android:textColor="#ff1e8bd4"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#a0ffffff" />
+
+                <Spinner
+                    android:id="@+id/spbatteryfont"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/apptheme_spinner_background_holo_dark"
+                    android:drawSelectorOnTop="true"
+                    android:gravity="center_vertical"
+                    android:prompt="@string/spinner_prompt" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#a08e8f90" />
+
+            <TextView
+                android:id="@+id/tvbatsize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Font Size" />
+
+            <SeekBar
+                android:id="@+id/sbbatsize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:max="380"
+                android:progressDrawable="@drawable/apptheme_scrubber_progress_horizontal_holo_dark"
+                android:thumb="@drawable/apptheme_scrubber_control_selector_holo_dark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="#a08e8f90" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical|left"
+                    android:text="On Click"
+                    android:textColor="#ff1e8bd4"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#a0ffffff" />
+
+                <CheckBox
+                    android:id="@+id/cbbatteryonclicked"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:button="@drawable/apptheme_btn_check_holo_dark"
+                    android:checked="false"
+                    android:text="Disable Clicks" />
+
+                <TextView
+                    android:id="@+id/spbatteryonclicked"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/apptheme_spinner_background_holo_dark"
+                    android:clickable="true"
+                    android:drawSelectorOnTop="true"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center"
+                    android:paddingLeft="12dp"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="#a08e8f90" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical|left"
+                    android:text="Line thickness"
+                    android:textColor="#ff1e8bd4"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#a0ffffff" />
+
+                <TextView
+                    android:id="@+id/tvbatleft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Battery Left Circle Line" />
+
+                <SeekBar
+                    android:id="@+id/sbbatleftwidth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:max="150"
+                    android:progressDrawable="@drawable/apptheme_scrubber_progress_horizontal_holo_dark"
+                    android:thumb="@drawable/apptheme_scrubber_control_selector_holo_dark" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#a08e8f90" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Back Circle Line" />
+
+                <SeekBar
+                    android:id="@+id/sbbatbackwidth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:max="150"
+                    android:progressDrawable="@drawable/apptheme_scrubber_progress_horizontal_holo_dark"
+                    android:thumb="@drawable/apptheme_scrubber_control_selector_holo_dark" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:background="#a08e8f90" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|left"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical|left"
+                    android:text="Color and Shadow"
+                    android:textColor="#ff1e8bd4"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#a0ffffff" />
+
+                <CheckBox
+                    android:id="@+id/cbbatterycolors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:button="@drawable/apptheme_btn_check_holo_dark"
+                    android:checked="false"
+                    android:text="Use Different Settings for Different Battery Levels" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#a08e8f90" />
+
+                <RelativeLayout
+                    android:id="@+id/rlpluggedColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="true" >
+
+                    <ImageView
+                        android:id="@+id/ivpluggedColor"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="#ff33b5e5" />
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/ivpluggedColor"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toRightOf="@+id/ivpluggedColor"
+                        android:text="Plugged in"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/tv4"
+                        android:layout_below="@+id/tv4"
+                        android:text="Settings when plugged in to power"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#a08e8f90" />
+
+                <RelativeLayout
+                    android:id="@+id/rlbattery1Color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="true" >
+
+                    <ImageView
+                        android:id="@+id/ivbattery1Color"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="#ff33b5e5" />
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/ivbattery1Color"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toRightOf="@+id/ivbattery1Color"
+                        android:text="81% to 100%"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/tv5sub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/tv5"
+                        android:layout_below="@+id/tv5"
+                        android:text="Settings for 81% to 100%"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#a08e8f90" />
+
+                <RelativeLayout
+                    android:id="@+id/rlbattery2Color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="true"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/ivbattery2Color"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="#ff33b5e5" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/ivbattery2Color"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toRightOf="@+id/ivbattery2Color"
+                        android:text="61% to 80%"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/tv6"
+                        android:layout_below="@+id/tv6"
+                        android:text="Settings for 61% to 80%"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/dvd1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#a08e8f90" />
+
+                <RelativeLayout
+                    android:id="@+id/rlbattery3Color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="true"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/ivbattery3Color"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="#ff33b5e5" />
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/ivbattery3Color"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toRightOf="@+id/ivbattery3Color"
+                        android:text="41% to 60%"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/tv7"
+                        android:layout_below="@+id/tv7"
+                        android:text="Settings for 41% to 60%"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/dvd2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#a08e8f90" />
+
+                <RelativeLayout
+                    android:id="@+id/rlbattery4Color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="true"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/ivbattery4Color"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="#ff33b5e5" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/ivbattery4Color"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toRightOf="@+id/ivbattery4Color"
+                        android:text="21% to 40%"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/tv8"
+                        android:layout_below="@+id/tv8"
+                        android:text="Settings for 21% to 40%"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/dvd3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#a08e8f90" />
+
+                <RelativeLayout
+                    android:id="@+id/rlbattery5Color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="true"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/ivbattery5Color"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="#ff33b5e5" />
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/ivbattery5Color"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_toRightOf="@+id/ivbattery5Color"
+                        android:text="0% to 20%"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/tv9"
+                        android:layout_below="@+id/tv9"
+                        android:text="Settings for 0% to 20%"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/layout/widgetpref.xml -->

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alarm_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="beforeDescendants"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    tools:ignore="NewApi,UselessParent,Overdraw" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginTop="12.0dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/digital_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_background"
+            android:baselineAligned="false"
+            android:clickable="true"
+            android:gravity="top" >
+
+            <TextView
+                android:id="@+id/batteryalarm"
+                style="@style/small_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/item_background"
+                android:clickable="true"
+                android:ellipsize="none"
+                android:paddingRight="@dimen/time_margin_right"
+                android:singleLine="true"
+                android:text="@string/_100"
+                android:textColor="@color/clock_white" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+
+        <RelativeLayout
+            android:id="@+id/rlworkaround"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center" >
+
+            <me.yugy.github.lswitchbackport.library.Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:textOff="@string/alarm_off"
+                android:textOn="@string/alarm_on"
+                android:thumbTextPadding="10.0dip" />
+
+            <View
+                android:id="@+id/viewWorkAround"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignLeft="@+id/switch1"
+                android:layout_alignRight="@+id/switch1"
+                android:layout_centerInParent="true"
+                android:thumbTextPadding="10.0dip" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/hairline"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:background="#28ffffff" />
+
+    <LinearLayout
+        android:id="@+id/info_area"
+        android:layout_width="fill_parent"
+        android:layout_height="32.0dip"
+        android:background="@drawable/item_background"
+        android:clickable="true"
+        android:gravity="center_vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="32.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="16.0dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="48.0dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/label"
+                    style="@style/alarm_label_not_caps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/label_"
+                    android:textColor="@color/clock_gray" />
+
+                <TextView
+                    android:id="@+id/daysOfWeek"
+                    style="@style/alarm_label_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:singleLine="true"
+                    android:textColor="@color/clock_white" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/expand"
+                android:layout_width="48.0dip"
+                android:layout_height="32.0dip"
+                android:layout_gravity="right"
+                android:contentDescription="@string/expand_alarm"
+                android:src="@drawable/ic_expand_down" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/expand_area"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/edit_label"
+            style="@style/body_not_caps"
+            android:layout_width="wrap_content"
+            android:layout_height="64.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:hint="@string/label"
+            android:singleLine="true"
+            android:textColor="@color/clock_gray" />
+
+        <CheckBox
+            android:id="@+id/repeat_onoff"
+            style="@style/body"
+            android:layout_width="wrap_content"
+            android:layout_height="48.0dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="16.0dip"
+            android:text="@string/alarm_repeat"
+            android:textColor="@color/clock_white" />
+
+        <LinearLayout
+            android:id="@+id/repeat_days"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/mon"
+                style="@style/body_days"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/item_background"
+                android:clickable="true"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/mon"
+                android:textColor="@color/clock_white" />
+
+            <TextView
+                android:id="@+id/tue"
+                style="@style/body_days"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/item_background"
+                android:clickable="true"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/tue"
+                android:textColor="@color/clock_white" />
+
+            <TextView
+                android:id="@+id/wed"
+                style="@style/body_days"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/item_background"
+                android:clickable="true"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/wed"
+                android:textColor="@color/clock_white" />
+
+            <TextView
+                android:id="@+id/thu"
+                style="@style/body_days"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/item_background"
+                android:clickable="true"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/thu"
+                android:textColor="@color/clock_white" />
+
+            <TextView
+                android:id="@+id/fri"
+                style="@style/body_days"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/item_background"
+                android:clickable="true"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/fri"
+                android:textColor="@color/clock_white" />
+
+            <TextView
+                android:id="@+id/sat"
+                style="@style/body_days"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/item_background"
+                android:clickable="true"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/sat"
+                android:textColor="@color/clock_white" />
+
+            <TextView
+                android:id="@+id/sun"
+                style="@style/body_days"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/item_background"
+                android:clickable="true"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/sun"
+                android:textColor="@color/clock_white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="64.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="16.0dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/choose_ringtone"
+                style="@style/body"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="16.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/item_background"
+                android:clickable="true"
+                android:drawableLeft="@drawable/ic_ringtone"
+                android:drawablePadding="2.0dip"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="@color/clock_white" />
+
+            <CheckBox
+                android:id="@+id/vibrate_onoff"
+                style="@style/body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:includeFontPadding="false"
+                android:text="@string/alarm_vibrate"
+                android:textColor="@color/clock_gray" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/hairline"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:background="#28ffffff"
+            tools:ignore="DuplicateIds" />
+
+        <LinearLayout
+            android:id="@+id/collapse"
+            android:layout_width="fill_parent"
+            android:layout_height="32.0dip"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:contentDescription="@string/collapse_alarm" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="32.0dip"
+                android:contentDescription="@string/collapse_alarm" >
+
+                <ImageView
+                    android:layout_width="48.0dip"
+                    android:layout_height="32.0dip"
+                    android:layout_gravity="right"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ic_expand_up" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/layout/alarmlistitems.xml -->

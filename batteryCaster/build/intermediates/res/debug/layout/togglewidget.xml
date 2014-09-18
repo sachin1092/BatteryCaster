@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:internal="http://schemas.android.com/apk/prv/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="64.0dip"
+    android:layout_gravity="center"
+    internal:layout_maxHeight="64.0dip"
+    internal:layout_minHeight="64.0dip"
+    android:background="@drawable/notification_bg_normal"
+    android:divider="?android:listDivider"
+    android:dividerPadding="12.0dip"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:showDividers="middle" >
+
+    <ImageView
+        android:id="@+id/ibwifi_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/item_background"
+        android:clickable="true"
+        android:src="@drawable/wifi_on" />
+
+    <ImageView
+        android:id="@+id/ibwifihotspot_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        
+        android:layout_weight="1"
+        android:background="@drawable/item_background"
+        android:clickable="true"
+        android:src="@drawable/wifi_hotspot_on" />
+
+    <ImageView
+        android:id="@+id/ibmdata_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/item_background"
+        android:clickable="true"
+        android:src="@drawable/mdata_on" />
+
+    <ImageView
+        android:id="@+id/ibbtooth_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/item_background"
+        android:clickable="true"
+        android:src="@drawable/btooth_on" />
+
+    <ImageView
+        android:id="@+id/ibamode_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/item_background"
+        android:clickable="true"
+        android:src="@drawable/amode_on" />
+
+    <ImageView
+        android:id="@+id/ibsync_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/item_background"
+        android:clickable="true"
+        android:src="@drawable/sync_on" />
+
+    <ImageView
+        android:id="@+id/ibarotate_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/item_background"
+        android:clickable="true"
+        android:src="@drawable/orientation_on" />
+
+    <ImageView
+        android:id="@+id/ibtorch_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/item_background"
+        android:clickable="true"
+        android:src="@drawable/lightbulb_on" />
+
+    <ImageView
+        android:id="@+id/ibbrightness_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/item_background"
+        android:clickable="true"
+        android:src="@drawable/bauto_on" />
+
+    <ImageView
+        android:id="@+id/ibpowersaver_toggle_large"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/item_background"
+        android:clickable="true"
+        android:src="@drawable/power_on" />
+
+</LinearLayout><!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/layout/togglewidget.xml -->

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/svAbout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff161616"
+    android:gravity="center_horizontal"
+    tools:ignore="Overdraw" >
+
+    <LinearLayout
+        android:id="@+id/llabout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="HardcodedText,ContentDescription" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <ImageView
+            android:id="@+id/ivAboutIcon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_launcher_hd" />
+
+        <TextView
+            android:id="@+id/tvAboutName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Battery Caster"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAboutTagLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="\&apos;The most powerful tool for you battery.\&apos;"
+            android:textColor="#ffffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAboutchangelog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Changelog"
+            android:textColor="#ff1e8bd4"
+            android:textColorLink="#ff1e8bd4"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvAboutCurVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Version 0.1(beta)"
+            android:textColor="#ffffffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvAboutSendFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Send Feedback"
+            android:textColor="#ff1e8bd4"
+            android:textColorLink="#ff1e8bd4"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvAboutTellus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="2dp"
+            android:text="Tell us what you think"
+            android:textColor="#ffffffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvAboutReportProblem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Report a problem"
+            android:textColor="#ff1e8bd4"
+            android:textColorLink="#ff1e8bd4"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvAboutLetusKnow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="2dp"
+            android:text="Let us know about a bug or problem"
+            android:textColor="#ffffffff"
+            android:textSize="12sp" />
+
+        <View
+            android:id="@+id/vAbout"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/tvAbout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Developed by Sachin Shinde"
+            android:textColor="#ffffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivAboutRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/stars" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/layout-land/about.xml -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:holo="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alarm_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/alarm_whiteish"
+    android:descendantFocusability="beforeDescendants"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    tools:ignore="NewApi,UselessParent,Overdraw,UnusedResources" >
+
+    <org.jraf.android.backport.switchwidget.Switch
+        android:id="@+id/myswitch1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:checked="true"
+        android:textOff="@string/alarm_off"
+        android:textOn="@string/alarm_on"
+        android:thumbTextPadding="10.0dip" />
+
+</LinearLayout>

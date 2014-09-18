@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="saphion.batterycaster"
+    android:versionCode="4"
+    android:versionName="0.4b" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- For settings -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Flashlight -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <provider
+            android:name="saphion.batterycaster.providers.AlarmProvider"
+            android:authorities="saphion.batterycaster"
+            android:exported="false" />
+
+        <activity
+            android:name="saphion.services.ForegroundService$Controller"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name="saphion.batterycaster.AdvancedMultipleSeriesGraph"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="saphion.batterycaster.MainPreference"
+            android:label="Preference"
+            android:theme="@style/DeskClock" >
+        </activity>
+
+        <!-- Tab Navigation -->
+
+        <activity
+            android:name="saphion.fragments.TabNavigation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/DeskClock" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="saphion.batterycaster.MainBatteryPage"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+        </activity>
+
+        <!-- Power Profile Editor -->
+        <activity
+            android:name="saphion.fragment.powerfragment.EditPower"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+
+        <service
+            android:name="saphion.services.ForegroundService"
+            android:label="Monitoring Service"
+            android:process=":batterymonitor" >
+        </service>
+        <service android:name="saphion.services.FakeService" >
+        </service>
+
+        <receiver android:name="saphion.services.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Widgets -->
+
+
+        <!-- 1x1 -->
+
+        <receiver
+            android:name="saphion.stencil.batterywidget.Battery_Actions"
+            android:exported="false"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.TIME_TICK" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_config" />
+        </receiver>
+
+        <!-- 2x2 -->
+
+        <receiver
+            android:name="saphion.widgets.ginger.Battery_Actions2x2"
+            android:enabled="@bool/Wenabled"
+            android:exported="false"
+            android:label="Battery Caster 2x2" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.TIME_TICK" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_config2x2" />
+        </receiver>
+
+        <!-- 3x3 -->
+
+        <receiver
+            android:name="saphion.widgets.ginger.Battery_Actions3x3"
+            android:enabled="@bool/Wenabled"
+            android:exported="false"
+            android:label="Battery Caster 3x3" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.TIME_TICK" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_config3x3" />
+        </receiver>
+
+        <!-- 4x4 -->
+
+        <receiver
+            android:name="saphion.widgets.ginger.Battery_Actions4x4"
+            android:enabled="@bool/Wenabled"
+            android:exported="false"
+            android:label="Battery Caster 4x4" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.TIME_TICK" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_config4x4" />
+        </receiver>
+
+        <activity
+            android:name="saphion.stencil.batterywidget.BatteryPreference"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+                <action android:name="android.intent.action.STENCILBATWIDGET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="saphion.stencil.batterywidget.MyBatteryDialog"
+            android:label="Color Dialog"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+
+        <service
+            android:name="saphion.services.UpdateService"
+            android:label="Battery Monitor Service"
+            android:process=":widgetbatterymonitor" />
+
+        <activity
+            android:name="saphion.utils.MyColorPickerView"
+            android:label="Color Picker"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="saphion.utils.MyColorPickerView2"
+            android:label="Color Picker"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+
+        <receiver android:name="saphion.services.BatteryWidgetUpdateReceiver" >
+        </receiver>
+        <receiver
+            android:name="saphion.batterycaster.powerswitcher.PowerSwitcher"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="saphion.batterycaster.SWITCHER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Notification Toggle Receivers -->
+
+        <receiver android:name="saphion.togglercvrs.AmodeRcvr" />
+
+        <activity
+            android:name="saphion.togglercvrs.BrightnessRcvr"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="saphion.togglercvrs.ToggleDialog"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.Transparent" />
+
+        <receiver android:name="saphion.togglercvrs.BtoothRcvr" />
+        <receiver android:name="saphion.togglercvrs.MdataRcvr" />
+        <receiver android:name="saphion.togglercvrs.PowerProfileRcvr" />
+        <receiver android:name="saphion.togglercvrs.SyncRcvr" />
+        <receiver android:name="saphion.togglercvrs.WifiRcvr" />
+        <receiver android:name="saphion.togglercvrs.ArotateRcvr" />
+        <receiver android:name="saphion.togglercvrs.HotspotRcvr" />
+
+        <!-- Alarm Alert Classes -->
+        <activity
+            android:name="saphion.fragments.alarm.AlarmAlert"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+
+        <receiver
+            android:name="saphion.fragment.alarm.alert.AlarmAlertReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="saphion.batterycaster.ALARM_ALERT" />
+                <action android:name="saphion.batterycaster.ALARM_DISMISS" />
+                <action android:name="com.better.alarm.ACTION_SOUND_EXPIRED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="saphion.batterycaster.AboutClass"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="saphion.help.HelpActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.AppCompat" >
+        </activity>
+
+        <service
+            android:name="saphion.togglehelpers.torch.TorchService"
+            android:exported="true" >
+
+            <!--
+            since (currently) we are only consuming this service locally, ignore
+            <intent-filter>
+                <action android:name="com.swijaya.galaxytorch.toggle_action" />
+            </intent-filter>
+            -->
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+     >
+
+    <PreferenceCategory android:title="Trigger">
+        <CheckBoxPreference
+            android:key="trigger"
+            android:persistent="false"
+            android:summary="Trigger this profile automatically when specified battery level is reached"
+            android:title="Trigger" />
+
+        <ListPreference
+            android:defaultValue="2"
+            android:dependency="trigger"
+            android:dialogTitle="Select Trigger Mode"
+            android:entries="@array/TriggerMode"
+            android:entryValues="@array/ringmodevals"
+            android:key="tmode"
+            android:persistent="false"
+            android:summary="Select in which mode to trigger profile"
+            android:title="Trigger Mode" />
+
+        <PreferenceScreen
+            android:dependency="trigger"
+            android:key="trigger_val"
+            android:persistent="false"
+            android:title="Battery Level: 100%" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Profile Name" >
+        <EditTextPreference
+            android:dialogIcon="@drawable/ic_launcher"
+            android:dialogTitle="Profile Name"
+            android:key="pfname"
+            android:persistent="false"
+            android:title="Profile Name" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Settings" >
+         <!--<org.jraf.android.backport.switchwidget.SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/amode_off"
+            android:key="amode"
+            android:persistent="false" 
+            switchpref:switchTextOff="@string/off"
+            switchpref:switchTextOn="@string/on"
+            android:title="Airplane Mode" />
+        <org.jraf.android.backport.switchwidget.SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/btooth_off"
+            android:key="btooth"
+            android:persistent="false"
+            switchpref:switchTextOff="@string/off"
+            switchpref:switchTextOn="@string/on"
+            android:title="Bluetooth" /> 
+        <org.jraf.android.backport.switchwidget.SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/sync_off"
+            android:key="sync"
+            android:persistent="false"
+            switchpref:switchTextOff="@string/off"
+            switchpref:switchTextOn="@string/on"
+            android:title="Sync" />
+         <org.jraf.android.backport.switchwidget.SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/haptic_feedback"
+            android:key="vib"
+            android:persistent="false"
+            switchpref:switchTextOff="@string/off"
+            switchpref:switchTextOn="@string/on"
+            android:title="Haptic Feedback" />
+         <org.jraf.android.backport.switchwidget.SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/rot_screen"
+            android:key="togRot"
+            android:persistent="false"
+            switchpref:switchTextOff="@string/off"
+            switchpref:switchTextOn="@string/on"
+            android:title="Auto-Rotate Screen" />-->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Mobile Data" >
+         <!--<org.jraf.android.backport.switchwidget.SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/mdata_off"
+            android:key="mdata"
+            android:persistent="false"
+            switchpref:switchTextOff="@string/off"
+            switchpref:switchTextOn="@string/on"
+            android:title="Mobile Data" />-->
+
+        <CheckBoxPreference
+            android:key="mdataScreenOff"
+            android:persistent="false"
+            android:summary="Turn Off Mobile Data When Screen is Off"
+            android:title="Mobile Data Toggle" />
+
+        <ListPreference
+            android:defaultValue="8"
+            android:dependency="mdataScreenOff"
+            android:dialogTitle="Select Enable Interval"
+            android:entries="@array/ScreenOff"
+            android:entryValues="@array/ScreenOffVals"
+            android:key="mdataScreenOffValues"
+            android:persistent="false"
+            android:summary="Enable Mobile Data periodically in specified interval when screen is Off"
+            android:title="Enable Interval" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Wifi" >
+        <!-- <org.jraf.android.backport.switchwidget.SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/wifi_off"
+            android:key="wifi"
+            android:persistent="false"
+            switchpref:switchTextOff="@string/off"
+            switchpref:switchTextOn="@string/on"
+            android:title="Wifi" />-->
+
+        <CheckBoxPreference
+            android:key="wifiScreenOff"
+            android:persistent="false"
+            android:summary="Turn Off Wifi When Screen is Off"
+            android:title="Wifi Toggle" />
+
+        <ListPreference
+            android:defaultValue="8"
+            android:dependency="wifiScreenOff"
+            android:dialogTitle="Select Enable Interval"
+            android:entries="@array/ScreenOff"
+            android:entryValues="@array/ScreenOffVals"
+            android:key="wifiScreenOffValues"
+            android:persistent="false"
+            android:summary="Enable Wifi periodically in specified interval when screen is Off"
+            android:title="Enable Interval" />
+    </PreferenceCategory>
+
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="Ringer Mode"
+        android:entries="@array/ringmode"
+        android:entryValues="@array/ringmodevals"
+        android:key="ringmode"
+        android:persistent="false"
+        android:title="Ringer Mode" />
+    <ListPreference
+        android:dialogTitle="Screen Timeout"
+        android:entries="@array/sleeptimeout"
+        android:entryValues="@array/sleeptimeoutvals"
+        android:key="stimeoutlist"
+        android:persistent="false"
+        android:summary="Time for the screen to sleep in when left idle"
+        android:title="Screen Timeout" />
+
+    <PreferenceCategory android:title="Brightness" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="autobtness"
+            android:persistent="false"
+            android:title="Automatic Brightness" />
+
+        <SeekBarPreference
+            android:defaultValue="177"
+            android:key="btness_seekbar"
+            android:max="255"
+            android:persistent="false"
+            android:title="Brightness" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

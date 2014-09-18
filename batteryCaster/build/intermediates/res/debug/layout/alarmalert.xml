@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff111111"
+    android:gravity="center_horizontal"
+    tools:context="saphion.fragments.alarm.AlarmAlert"
+    tools:ignore="Overdraw" >
+
+    <ImageView
+        android:id="@+id/ivlockscreen"
+        android:layout_width="250dp"
+        android:layout_height="280dp"
+        android:layout_above="@+id/glow_pad_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:paddingLeft="29dp"
+        android:contentDescription="@string/todo" />
+
+     <net.frakbot.glowpadbackport.GlowPadView
+        android:id="@+id/glow_pad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/glowpadview_margin_bottom"
+        android:layout_marginLeft="-29dp"
+        android:focusable="true"
+        android:gravity="center"
+        app:directionDescriptions="@array/snooze_dismiss_direction_descriptions"
+        app:feedbackCount="1"
+        app:glowRadius="@dimen/glowpadview_glow_radius"
+        app:handleDrawable="@drawable/ic_alarm_alert_touch_handle"
+        app:innerRadius="@dimen/glowpadview_inner_radius"
+        app:outerRadius="@dimen/glowpadview_target_placement_radius"
+        app:outerRingDrawable="@drawable/ic_alarm_alert_outerring"
+        app:pointDrawable="@drawable/ic_lockscreen_glowdot"
+        app:snapMargin="@dimen/glowpadview_snap_margin"
+        app:targetDescriptions="@array/snooze_dismiss_descriptions"
+        app:targetDrawables="@array/snooze_dismiss_drawables"
+        app:vibrationDuration="20" />
+
+</RelativeLayout><!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/layout/alarmalert.xml -->

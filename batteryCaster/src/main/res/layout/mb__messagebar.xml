@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/mbContainer"
+    style="?attr/messageBarContainerStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="75dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:visibility="gone"
+    android:background="@drawable/mb__messagebar_background"
+    android:clickable="true"
+    android:divider="@drawable/mb__messagebar_divider"
+    android:dividerPadding="10dp"
+    android:minHeight="48dp"
+    android:orientation="horizontal"
+    android:showDividers="middle" >
+
+    <TextView
+        android:id="@id/mbMessage"
+        style="?attr/messageBarTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@id/mbButton"
+        style="?attr/messageBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/mb__item_background_holo_dark"
+        android:drawableLeft="@drawable/ic_action_undo"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+</LinearLayout>

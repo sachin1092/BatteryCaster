@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_back"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription,Overdraw" >
+
+    <FrameLayout
+        android:id="@+id/swn_collapsed_hitspace"
+        android:layout_width="fill_parent"
+        android:layout_height="64.0dip"
+        
+        tools:ignore="HardcodedText,ContentDescription" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/notification_large_icon_width"
+            android:layout_height="@dimen/notification_large_icon_height"
+            android:contentDescription="@string/todo"
+            android:scaleType="center" >
+
+            <ImageView
+                android:layout_width="@dimen/notification_large_icon_widthn"
+                android:layout_height="@dimen/notification_large_icon_heightn"
+                android:alpha=".5"
+                android:layout_centerInParent="true"
+                android:background="@drawable/main_button_normal"
+                android:scaleType="center" />
+
+            <ImageView
+                android:id="@+id/notification_icon_large"
+                android:layout_width="@dimen/notification_large_icon_width"
+                android:layout_height="@dimen/notification_large_icon_height"
+                android:scaleType="center"
+                android:src="@drawable/simple_72" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"
+            android:layout_marginLeft="@dimen/notification_large_icon_width"
+            android:layout_marginStart="@dimen/notification_large_icon_width"
+            android:gravity="center"
+            android:minHeight="@dimen/notification_large_icon_height"
+            android:orientation="vertical"
+            android:paddingBottom="2.0dip"
+            android:paddingEnd="8.0dip"
+            android:paddingLeft="0dip"
+            android:paddingTop="2.0dip" >
+
+            <LinearLayout
+                android:id="@+id/line1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8.0dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvNotiPrevmainText_large"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:singleLine="true"
+                    android:text="Main Text"
+                    android:textColor="#f000"
+                    android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Title" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvNotiPrevsubText_large"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8.0dip"
+                android:ellipsize="marquee"
+                android:textColor="#f000"
+                android:fadingEdge="horizontal"
+                android:singleLine="true"
+                android:text="Subtext"
+                android:textAppearance="@style/TextAppearance.StatusBar.EventContent" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/ivchart_large"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:background="#ff000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:divider="?android:listDivider"
+        android:dividerPadding="12.0dip"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <ImageView
+            android:id="@+id/ibwifi_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:src="@drawable/wifi_on" />
+        
+        <ImageView
+            android:id="@+id/ibwifihotspot_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:src="@drawable/wifi_hotspot_on" />
+
+        <ImageView
+            android:id="@+id/ibmdata_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:src="@drawable/mdata_on" />
+
+        <ImageView
+            android:id="@+id/ibbtooth_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:src="@drawable/btooth_on" />
+
+        <ImageView
+            android:id="@+id/ibamode_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:src="@drawable/amode_on" />
+
+        <ImageView
+            android:id="@+id/ibsync_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:src="@drawable/sync_on" />
+        
+        <ImageView
+            android:id="@+id/ibarotate_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1" 
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:src="@drawable/orientation_on" />
+        
+        <ImageView
+            android:id="@+id/ibtorch_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:src="@drawable/lightbulb_on" />
+
+        <ImageView
+            android:id="@+id/ibbrightness_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:src="@drawable/bauto_on" />
+        
+        <ImageView
+            android:id="@+id/ibpowersaver_toggle_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:src="@drawable/power_on" /> 
+        
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/layout-v20/largenoti.xml -->

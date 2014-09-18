@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlpowerback"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@color/blackish"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:id="@+id/llcontainer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/viewProf"
+        android:background="@color/blackish"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blackish" >
+
+            <TextView
+                android:id="@+id/tvprofname"
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_margin="2dp"
+                android:background="@color/blackish"
+                android:text="@string/power_profiles" />
+
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end|center_vertical"
+                android:background="@color/blackish"
+                android:clickable="true"
+                android:contentDescription="@string/delete_alarm"
+                android:paddingBottom="4dp"
+                android:paddingEnd="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingStart="4dp"
+                android:src="@drawable/ic_delete" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ff595959" />
+
+        <LinearLayout
+            android:id="@+id/llcontainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_background"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:weightSum="6" >
+
+            <ImageView
+                android:id="@+id/ivwifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/wifi_on" />
+
+            <ImageView
+                android:id="@+id/ivdata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/mdata_on" />
+
+            <ImageView
+                android:id="@+id/ivbtooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/btooth_on" />
+
+            <ImageView
+                android:id="@+id/ivamode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/amode_on" />
+
+            <ImageView
+                android:id="@+id/ivsync"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/sync_on" />
+
+            <ImageView
+                android:id="@+id/ivbness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/blow_on" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewProf"
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/llcontainer2"
+        android:layout_alignTop="@+id/llcontainer2"
+        android:layout_toLeftOf="@+id/rbselectProf"
+        android:background="#ff595959" />
+
+    <RadioButton
+        android:id="@+id/rbselectProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/alarm_footer_filler"
+        android:layout_alignBottom="@+id/llcontainer2"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/llcontainer2"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:button="@drawable/apptheme_btn_radio_holo_dark" />
+
+    <View
+        android:id="@+id/alarm_footer_filler"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_footer_height"
+        android:layout_below="@+id/llcontainer2"
+        android:background="@color/blackish"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/layout/poweritems.xml -->

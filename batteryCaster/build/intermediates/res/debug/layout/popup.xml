@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mynback" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tvHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Toggles"
+                android:textColor="#fff"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/ibbattery"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/item_background"
+                    android:padding="3dp"
+                    android:src="@drawable/battery_icon_activated" />
+
+                <View
+                    android:layout_width="0.9dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#a08e8f90" />
+
+                <ImageButton
+                    android:id="@+id/ibsettings"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/item_background"
+                    android:padding="3dp"
+                    android:src="@drawable/mprefs" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/layoutToggles"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            layout="@layout/bslider" />
+
+        <LinearLayout
+            android:id="@+id/lltoggles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ibwifi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_background"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:src="@drawable/wifi_on" />
+
+            <View
+                android:id="@+id/viewwifihotspot"
+                android:layout_width="0.9dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#a08e8f90" />
+
+            <ImageButton
+                android:id="@+id/ibwifispot"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_background"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:src="@drawable/wifi_hotspot_on" />
+
+            <View
+                android:layout_width="0.9dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#a08e8f90" />
+
+            <ImageButton
+                android:id="@+id/ibmdata"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_background"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:src="@drawable/mdata_on" />
+
+            <View
+                android:layout_width="0.9dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#a08e8f90" />
+
+            <ImageButton
+                android:id="@+id/ibbtooth"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_background"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:src="@drawable/btooth_on" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lltoggles2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ibamode"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_background"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:src="@drawable/amode_on" />
+
+            <View
+                android:id="@+id/amodeView"
+                android:layout_width="0.9dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#a08e8f90" />
+
+            <ImageButton
+                android:id="@+id/ibsync"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_background"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:src="@drawable/sync_on" />
+
+            <View
+                android:layout_width="0.9dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#a08e8f90" />
+
+            <ImageButton
+                android:id="@+id/ibarotate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_background"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:src="@drawable/orientation_on" />
+
+            <View
+                android:layout_width="0.9dp"
+                android:layout_height="20dp"
+                android:id="@+id/torchview"
+                android:layout_gravity="center_vertical"
+                android:background="#a08e8f90" />
+
+            <ImageButton
+                android:id="@+id/ibtorch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_background"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:src="@drawable/lightbulb_on" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rgtoggles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="4dp" >
+
+            <RadioButton
+                android:id="@+id/rbVibrate"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/apptheme_btn_radio_holo_dark"
+                android:drawableRight="@drawable/icon_toggle_volume_vib"
+                android:padding="3dp"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/rbVolumeOff"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/apptheme_btn_radio_holo_dark"
+                android:drawableRight="@drawable/icon_toggle_volume_off"
+                android:padding="3dp"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/rbVolumeOn"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/apptheme_btn_radio_holo_dark"
+                android:drawableRight="@drawable/icon_toggle_volume_on"
+                android:padding="3dp"
+                android:text="" />
+
+            <RadioButton
+                android:id="@+id/rbVolumeOnVib"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/apptheme_btn_radio_holo_dark"
+                android:drawableRight="@drawable/icon_toggle_volume_on_vib"
+                android:padding="3dp"
+                android:text="" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:background="@drawable/item_background"
+                android:src="@drawable/icon_ring" />
+
+            <SeekBar
+                android:id="@+id/sbRing"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="10"
+                android:max="255"
+                android:progressDrawable="@drawable/apptheme_scrubber_progress_horizontal_holo_dark"
+                android:thumb="@drawable/apptheme_scrubber_control_selector_holo_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="10" >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:background="@drawable/item_background"
+                android:src="@drawable/icon_music" />
+
+            <SeekBar
+                android:id="@+id/sbMusic"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="10"
+                android:max="255"
+                android:progressDrawable="@drawable/apptheme_scrubber_progress_horizontal_holo_dark"
+                android:thumb="@drawable/apptheme_scrubber_control_selector_holo_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="10" >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:background="@drawable/item_background"
+                android:src="@drawable/alarm" />
+
+            <SeekBar
+                android:id="@+id/sbAlarm"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="10"
+                android:max="255"
+                android:progressDrawable="@drawable/apptheme_scrubber_progress_horizontal_holo_dark"
+                android:thumb="@drawable/apptheme_scrubber_control_selector_holo_dark" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/mnt/Games/AndroidStudioProjects/BatteryCaster/batteryCaster/src/main/res/layout/popup.xml -->

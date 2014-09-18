@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BatteryCaster.iml" filepath="$PROJECT_DIR$/BatteryCaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidswitchbackport/androidswitchbackport.iml" filepath="$PROJECT_DIR$/androidswitchbackport/androidswitchbackport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batteryCaster/batteryCaster.iml" filepath="$PROJECT_DIR$/batteryCaster/batteryCaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batteryLib/batteryLib.iml" filepath="$PROJECT_DIR$/batteryLib/batteryLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/glowPadLib/glowPadLib.iml" filepath="$PROJECT_DIR$/glowPadLib/glowPadLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/numberPickerlibrary/numberPickerlibrary.iml" filepath="$PROJECT_DIR$/numberPickerlibrary/numberPickerlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/showcase_library/showcase_library.iml" filepath="$PROJECT_DIR$/showcase_library/showcase_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/undoLibrary/undoLibrary.iml" filepath="$PROJECT_DIR$/undoLibrary/undoLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewPagerlibrary/viewPagerlibrary.iml" filepath="$PROJECT_DIR$/viewPagerlibrary/viewPagerlibrary.iml" />
+    </modules>
+  </component>
+</project>
+

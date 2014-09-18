@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <array name="snooze_dismiss_drawables">
+        <item>@null</item>
+        <item>@drawable/ic_item_dismiss</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_descriptions">
+        <item>@null</item>
+        <item>dismiss</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_direction_descriptions">
+        <item>@null</item>
+        <item>top</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_drawable">
+        <item>@null</item>
+        <item>@null</item>
+        <item>@drawable/ic_item_dismiss</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_description">
+        <item>@null</item>
+        <item>@null</item>
+        <item>dismiss</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_direction_description">
+        <item>@null</item>
+        <item>@null</item>
+        <item>top</item>
+        <item>@null</item>
+    </array>
+
+    <string-array name="silenceAfter" translatable="false">
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+        <item>25 Minutes</item>
+        <item>30 Minutes</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="silenceAfter_values" tools:ignore="MissingTranslation">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>-99</item>
+    </string-array>
+    <string-array name="ringmode">
+        <item>Silent</item>
+        <item>Vibrate Only</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="ringmodevals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sleeptimeout">
+        <item>15 Seconds</item>
+        <item>30 Seconds</item>
+        <item>1 Minute</item>
+        <item>2 Minutes</item>
+        <item>10 Minutes</item>
+        <item>30 Minutes</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="sleeptimeoutvals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="batterynoti">
+        <item>Battery Remaining</item>
+        <item>Temperature</item>
+        <item>Health, Temperature</item>
+        <item>Duration in which phone will get Charged/Discharged</item>
+        <item>Time when phone will get Charged/Discharged</item>
+        <item>Time When Charging/Discharging started</item>
+        <item>Duration since last Charged/Discharged</item>
+    </string-array>
+    <string-array name="onclickactions">
+        <item>Battery Info and Chart</item>
+        <item>Battery Use</item>
+        <item>Notification Settings</item>
+        <item>Toggles</item>
+    </string-array>
+    <string-array name="notipriority">
+        <item>High: Icon, Notification on top of certain apps</item>
+        <item>Min: No icon</item>
+        <item>Default</item>
+        <item>Low: Less priority</item>
+        <item>Max: Max priority, Always on top</item>
+    </string-array>
+    <string-array name="ScreenOff">
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="ScreenOffVals">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>360</item>
+        <item>-99</item>
+    </string-array>
+    <string-array name="TriggerMode">
+        <item>Charging</item>
+        <item>Discharging</item>
+        <item>Always</item>
+    </string-array>
+
+</resources>

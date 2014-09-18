@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/ivbatmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:contentDescription="@string/history"
+        android:paddingTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ics_circle_72" />
+
+    <RelativeLayout
+        android:id="@+id/rlbatpage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        tools:ignore="Overdraw" >
+
+        <LinearLayout
+            android:id="@+id/llmstats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/viewbar"
+            android:baselineAligned="false"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:padding="2dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/temp_white" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tvStatsTempTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/temperature"
+                        android:textColor="#ff1e8bd4"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/tvStatsTempVal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="36.3° C"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/plus_mod" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tvStatHealthTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/health"
+                        android:textColor="#ff1e8bd4"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/tvStatHealthVal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Good"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:id="@+id/ivHourGlass"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/hourglass" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tvLeftStatTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ff1e8bd4"
+                        android:textSize="19sp" />
+
+                    <TextView
+                        android:id="@+id/tvLeftStatVal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viewbar"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_above="@+id/bottomBar"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="#a08e8f90" />
+
+        <LinearLayout
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bShowBatteryUsage"
+                style="@style/HoloButton.Borderless"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/battery_usage"
+                android:textColor="#fff" />
+
+            <View
+                android:layout_width="0.9dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:background="#a08e8f90"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/ibOverflow"
+                style="@style/HoloButton.Borderless"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:src="@drawable/abs__ic_menu_moreoverflow_normal_holo_dark"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

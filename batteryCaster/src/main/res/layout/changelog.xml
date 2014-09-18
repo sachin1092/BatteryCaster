@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lllatlon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/myback"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvchangeLogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+        android:background="@drawable/actionbar_back"
+        android:gravity="center_vertical|start"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#a08e8f90" />
+
+    <WebView
+        android:id="@+id/wvChangeLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:dividerPadding="20dp"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/bChangeLogOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bnew_item_background"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="OK"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bChangeLogMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bnew_item_background"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="More..."
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

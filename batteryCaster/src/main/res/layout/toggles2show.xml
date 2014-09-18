@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,ContentDescription" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical|left"
+        android:text="@string/notification_priority"
+        android:textColor="#ff1e8bd4"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#a0ffffff" />
+
+    <TextView
+        android:id="@+id/tvnotipriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/apptheme_spinner_background_holo_dark"
+        android:clickable="true"
+        android:paddingLeft="12dp"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <CheckBox
+        android:id="@+id/cbShowGraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:button="@drawable/apptheme_btn_check_holo_dark"
+        android:text="@string/show_battery_graph" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical|left"
+        android:text="Toggle to show"
+        android:textColor="#ff1e8bd4"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#a0ffffff" />
+
+    <CheckBox
+        android:id="@+id/cbnbamode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:button="@drawable/apptheme_btn_check_holo_dark"
+        android:text="Airplane Mode" />
+
+    <CheckBox
+        android:id="@+id/cbnbwifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:button="@drawable/apptheme_btn_check_holo_dark"
+        android:text="Wifi" />
+    
+     <CheckBox
+        android:id="@+id/cbnbwifihotspot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:button="@drawable/apptheme_btn_check_holo_dark"
+        android:text="Wifi Hotspot" />
+
+    <CheckBox
+        android:id="@+id/cbnbmdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:button="@drawable/apptheme_btn_check_holo_dark"
+        android:text="Mobile Data" />
+
+    <CheckBox
+        android:id="@+id/cbnbbtooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:button="@drawable/apptheme_btn_check_holo_dark"
+        android:text="Bluetooth" />
+
+    <CheckBox
+        android:id="@+id/cbnbsync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:button="@drawable/apptheme_btn_check_holo_dark"
+        android:text="Background Sync" />
+
+    <CheckBox
+        android:id="@+id/cbnbarotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:button="@drawable/apptheme_btn_check_holo_dark"
+        android:text="Auto Rotate" />
+    
+    <CheckBox
+        android:id="@+id/cbnbtorch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:button="@drawable/apptheme_btn_check_holo_dark"
+        android:text="Torch" />
+
+    <CheckBox
+        android:id="@+id/cbnbbness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:button="@drawable/apptheme_btn_check_holo_dark"
+        android:text="Brightness" />
+
+    <CheckBox
+        android:id="@+id/cbnbprofileswitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:button="@drawable/apptheme_btn_check_holo_dark"
+        android:text="Power Profile Switcher" />
+
+    <LinearLayout
+        android:id="@+id/llpowerswitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical|left"
+            android:text="Switch between following profiles"
+            android:textColor="#ff1e8bd4"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#a0ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/power_off" />
+
+            <TextView
+                android:id="@+id/tvpowerprof1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/apptheme_spinner_background_holo_dark"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="12dp"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/arrow" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/power_on" />
+
+            <TextView
+                android:id="@+id/tvpowerprof2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/apptheme_spinner_background_holo_dark"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="12dp"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
